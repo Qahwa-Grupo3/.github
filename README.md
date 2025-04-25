@@ -328,4 +328,38 @@ El objetivo de esta matriz es identificar qué tareas realizan estos perfiles en
 
 ## 2.4. Ubiquitous Language
 
+# Capítulo III: Requirements Specification
+
+## 3.1. To-Be Scenario Mapping
+
+## 3.2. User Stories
+
+## 2.3.3. EPICs del Producto Digital
+
+| EPIC ID  | Título                                               | Descripción                                                                                      |
+|----------|------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| EP-001   | Digitalizar y gestionar su producción de café        | Como productor, quiero registrar, visualizar y hacer seguimiento de todas las etapas del proceso de producción del café. |
+| EP-002   | Conectar con compradores y ofrecer su café           | Como productor, quiero crear perfiles, mostrar mis productos y ofrecerlos directamente a compradores comerciales. |
+| EP-003   | Monitorear métricas clave de calidad y rendimiento   | Como productor, quiero visualizar indicadores sobre la calidad del café y la eficiencia en cada etapa del proceso. |
+| EP-004   | Gestionar inventario y trazabilidad del café         | Como productor, quiero llevar control del inventario disponible y rastrear cada lote desde el origen. |
+| EP-005   | Recibir retroalimentación de los compradores         | Como productor, quiero acceder a opiniones y calificaciones para entender cómo los compradores perciben la calidad de mi café. |
+| EP-006   | Acceder a soporte y recursos de aprendizaje          | Como productor, quiero contar con asistencia técnica y recursos educativos sobre producción, calidad y comercialización. |
+| EP-007   | Personalizar su perfil y contar su historia          | Como productor, quiero compartir mi historia, ubicación, métodos y filosofía de cultivo. |
+| EP-008   | Descubrir y adquirir café directamente de productores| Como comprador, quiero explorar diferentes ofertas de café de productores certificados y realizar compras seguras. |
+| EP-009   | Evaluar y comparar productores de café               | Como comprador, quiero calificar la experiencia comercial y comparar diferentes productores para tomar decisiones informadas. |
+| EP-010   | Conocer la historia y proceso de producción del café | Como comprador, quiero acceder al perfil del productor y entender el origen, prácticas y calidad del café que adquiero. |
+| EP-011   | Recibir recomendaciones según necesidades comerciales | Como comprador, quiero obtener sugerencias de productores o variedades de café alineadas con mis criterios de calidad, origen y volumen. |
+| EP-012   | Gestionar pedidos y hacer seguimiento logístico      | Como comprador, quiero ver el estado de mis pedidos, historial y detalles de envío o logística. |
+| EP-013   | Acceder a soporte en la relación comercial           | Como comprador, quiero recibir ayuda ante inconvenientes con el producto, entrega o aspectos contractuales. |
+
+----
+
+| Título                              | Descripción                                                                                          | Criterios de Aceptación                                                                                                                            | EPIC ID |
+|-------------------------------------|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| Registro de etapa de siembra        | Como productor, quiero registrar la etapa de siembra para llevar control desde el inicio del proceso productivo. | Scenario 1: Registro exitoso de siembra: <br>GIVEN un productor logueado <br>WHEN accede al formulario de nueva etapa y completa los campos requeridos <br>THEN la etapa se guarda correctamente en la base de datos <br>AND aparece listada en el cronograma del lote. <br><br>Scenario 2: Error por campos vacíos: <br>GIVEN un productor que deja campos obligatorios sin llenar <br>WHEN intenta registrar la etapa <br>THEN la plataforma muestra un mensaje de error <br>AND no permite guardar la información hasta completar los datos. | EP-001  |
+| Visualización del cronograma de producción | Como productor, quiero ver un cronograma de las etapas del café para planificar mi trabajo y tiempos. | Scenario 1: Cronograma con etapas registradas: <br>GIVEN que el productor tiene etapas de producción guardadas <br>WHEN accede a la sección de cronograma <br>THEN se muestra una línea de tiempo con las etapas ordenadas por fecha <br>AND cada etapa es clickeable para ver más detalles. <br><br>Scenario 2: Cronograma vacío: <br>GIVEN que el productor aún no ha registrado ninguna etapa <br>WHEN accede a la sección de cronograma <br>THEN la plataforma muestra un mensaje indicando que no hay datos <br>AND sugiere registrar una nueva etapa. | EP-001 |
+| Edición de etapa de producción      | Como productor, quiero modificar la información de una etapa de producción en caso de errores o cambios. | Scenario 1: Edición exitosa de etapa: <br>GIVEN que el productor accede a una etapa previamente registrada <br>WHEN edita los datos y guarda los cambios <br>THEN la información se actualiza correctamente <br>AND se refleja en la vista de cronograma. <br><br>Scenario 2: Error por campos inválidos: <br>GIVEN que se ingresan datos en formato incorrecto <br>WHEN intenta guardar <br>THEN la plataforma muestra un mensaje de validación <br>AND evita guardar hasta que el formato sea correcto. | EP-001 |
+| Creación de perfil de productor     | Como productor, quiero crear un perfil con mi información básica para que los consumidores me conozcan. | Scenario 1: Creación exitosa del perfil: <br>GIVEN que el productor está logueado <br>WHEN completa el formulario de perfil y lo envía <br>THEN el perfil se guarda correctamente <br>AND es visible para los consumidores. <br><br>Scenario 2: Campos incompletos: <br>GIVEN que el productor deja campos obligatorios sin llenar <br>WHEN intenta guardar su perfil <br>THEN recibe un mensaje de advertencia <br>AND no puede continuar hasta completarlos. | EP-002 |
+| Publicación de café para la venta   | Como productor, quiero publicar mis lotes de café para que estén disponibles para la venta.             | Scenario 1: Publicación exitosa de café: <br>GIVEN que el productor tiene café disponible <br>WHEN registra un nuevo lote <br>THEN el producto se publica en la vitrina virtual <br>AND los consumidores pueden verlo y comprarlo. <br><br>Scenario 2: Error en el registro del producto: <br>GIVEN que se omite información obligatoria <br>WHEN se intenta guardar <br>THEN el sistema marca los campos faltantes <br>AND no permite completar la publicación. | EP-002 |
+
 
