@@ -145,3 +145,187 @@ Nos enfocaremos inicialmente en productores cafetaleros de la región Cajamarca,
 - **Ubicación:** Zonas comerciales o urbanas cercanas a los centros de producción.  
 - **Conectividad:** Buena infraestructura tecnológica.
 
+# Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1. Competidores
+
+En el análisis de mercado hemos identificado una serie de competidores que ofrecen soluciones digitales enfocadas en la gestión agrícola o en la cadena de comercialización del café. A continuación, presentamos tres de los principales competidores directos e indirectos, junto con una breve descripción de sus modelos de negocio y su relación con el dominio de nuestro proyecto:
+
+### 1. Agrovision
+**Tipo**: Competidor directo  
+**Descripción**:  
+Plataforma digital orientada al monitoreo y gestión de cultivos agrícolas. Permite registrar actividades de campo, generar reportes de productividad y controlar plagas y enfermedades mediante sensores y aplicaciones móviles.  
+**Relación con el proyecto**:  
+Tiene funciones de monitoreo agrícola, similares a las que proponemos, aunque enfocadas principalmente en grandes empresas agroexportadoras. No está adaptada a pequeños productores cafetaleros ni considera el proceso de comercialización.
+
+### 2. Digital Coffee Future
+**Tipo**: Competidor directo  
+**Descripción**:  
+Startup internacional que busca digitalizar la cadena de valor del café. Ofrece soluciones para rastrear la producción desde el campo hasta el comprador final, con enfoque en trazabilidad, sostenibilidad y comercio justo.  
+**Relación con el proyecto**:  
+Aborda un enfoque similar al nuestro, pero su alcance es global y se enfoca en exportadores y empresas con mayor capacidad tecnológica. Nuestro sistema se diferencia por centrarse en productores locales peruanos con herramientas más sencillas y accesibles.
+
+### 3. Jiwa+ (de Rikolto)
+**Tipo**: Competidor indirecto  
+**Descripción**:  
+Aplicación desarrollada en colaboración con asociaciones agrícolas en Perú. Permite llevar un registro de actividades, gestión de parcelas, producción y ventas para pequeños agricultores.  
+**Relación con el proyecto**:  
+Es una solución que se aproxima al modelo que proponemos, pero aún está en etapas limitadas de adopción. No está especializada en el rubro del café ni ha sido diseñada específicamente para la cadena completa del proceso cafetalero.
+
+### 2.1.1. Análisis competitivo
+
+#### ¿Por qué llevar a cabo este análisis?  
+Este análisis busca comprender a fondo el entorno competitivo en el que se posiciona nuestra startup cafetalera, identificando fortalezas y debilidades de los principales actores del mercado. Esto permitirá afinar nuestra propuesta de valor, descubrir oportunidades de diferenciación y definir una estrategia competitiva efectiva.
+
+| Categoría                | Nuestra Startup (Qahwa)                                | Agrovisión (Competidor)                           | Digital Coffee Future (Competidor)               | Jiwa+ (Competidor)                                |
+|--------------------------|--------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|---------------------------------------------------|
+| **Perfil Overview**       | Plataforma de gestión del café desde el cultivo hasta la venta, enfocada en productores peruanos. | Plataforma de monitoreo y gestión agrícola para agroexportadores. | Solución de trazabilidad digital para la cadena global del café. | App para gestión de actividades agrícolas locales. |
+| **Ventaja competitiva**   | Integración completa y simple para cafetaleros locales. | Gestión agrícola con sensores y reportes avanzados. | Transparencia en la cadena de valor para exportadores. | Acompañamiento a asociaciones rurales.           |
+| **Mercado objetivo**      | Pequeños y medianos caficultores peruanos.             | Grandes empresas agroindustriales.               | Empresas exportadoras y compradores internacionales. | Agricultores rurales organizados en asociaciones. |
+| **Estrategias de marketing** | Capacitación, ferias agrícolas, asociaciones cafetaleras. | Venta directa a empresas y uso de redes de distribuidores. | Alianzas internacionales, enfoque en sostenibilidad. | ONG y redes locales de confianza.                 |
+| **Productos & Servicios** | Gestión de cultivo, cosecha, procesamiento, ventas y stock. | Sensores, reportes de productividad, control fitosanitario. | Plataforma de trazabilidad, reportes, certificaciones. | Registro de actividades, gestión de parcelas.      |
+| **Precios & Costos**      | Modelo freemium con pagos por funciones avanzadas.     | Costos altos, orientado a empresas con presupuesto. | Precio en función del tamaño y nivel de exportación. | Bajo costo, subsidiado por ONG.                   |
+| **Canales de distribución** | Web y aplicación móvil adaptada a zonas rurales.      | Web + plataforma en la nube.                     | Web, móvil y API para integraciones.             | Aplicación móvil offline.                         |
+
+#### Análisis SWOT
+
+| Categoría               | Nuestra Startup (Qahwa)                                | Agrovision (Competidor)                           | Digital Coffee Future (Competidor)               | Jiwa+ (Competidor)                                |
+|-------------------------|--------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|---------------------------------------------------|
+| **Fortalezas**           | Adaptada al cafetalero peruano, interfaz sencilla, bajo costo. | Alta tecnología, sensores, informes técnicos.     | Experiencia global, fuerte enfoque en trazabilidad. | Apoyo comunitario, diseñada para asociaciones.    |
+| **Debilidades**          | Poco reconocimiento inicial, recursos limitados.      | No está diseñada para pequeños productores.       | Requiere conectividad y conocimientos digitales.  | Alcance limitado a ciertas zonas rurales.         |
+| **Oportunidades**        | Alta demanda de digitalización en cafetaleros locales, apoyo estatal. | Expansión a nuevos cultivos.                      | Certificaciones ecológicas y comercio justo.      | Escalamiento a otras regiones agrícolas.          |
+| **Amenazas**             | Entrada de nuevas startups, resistencia tecnológica en zonas rurales. | Saturación de tecnologías avanzadas.              | Cambios regulatorios o falta de adopción local.   | Dependencia de subvenciones y ONG.                |
+
+### 2.1.2. Estrategias y tácticas frente a competidores.
+
+Para enfrentar las fortalezas y debilidades de los competidores, así como aprovechar el contexto de oportunidades y amenazas, nuestra startup Qahwa aplicará las siguientes estrategias y tácticas:
+
+#### Diferenciación basada en accesibilidad y enfoque local:
+- Desarrollar una interfaz sencilla y amigable incluso para caficultores con bajo nivel de alfabetización digital.
+- Brindar soporte técnico y capacitaciones personalizadas en zonas rurales, en alianza con cooperativas cafetaleras.
+
+#### Alianzas estratégicas:
+- Colaborar con ONG, municipios rurales y programas del Estado para facilitar la implementación del sistema.
+- Buscar convenios con asociaciones de cafetaleros para crear redes de usuarios beta que validen y promuevan la solución.
+
+#### Modelo de negocio adaptable y escalable:
+- Implementar un modelo freemium que permita adopción inicial sin costos, con mejoras pagadas según necesidades.
+- Diseñar funciones modulares que puedan escalar conforme crezcan los negocios de los productores.
+
+#### Marketing dirigido y presencia comunitaria:
+- Participar en ferias agrícolas, talleres y eventos rurales para generar confianza y visibilidad.
+- Generar contenido educativo sobre buenas prácticas cafetaleras integradas al uso de la app.
+
+#### Monitoreo continuo del mercado y ajustes estratégicos:
+- Realizar retroalimentación constante con usuarios para adaptar el producto a sus cambios de contexto.
+- Monitorear innovaciones tecnológicas de competidores para evaluar adaptaciones necesarias.
+
+Con estas estrategias, Qahwa busca posicionarse como una solución integral, accesible y confiable para los caficultores peruanos, transformando digitalmente su cadena de valor con enfoque local y comunitario.
+
+## 2.2. Entrevistas.
+
+### 2.2.1. Diseño de entrevistas.
+
+#### Segmento 1: Productores de café
+**Objetivo**: Conocer a fondo sus procesos, retos, herramientas actuales, necesidades, perfil demográfico y digital.
+
+**Información a recolectar**:
+- Edad, género, distrito o zona rural de residencia, ocupación, años de experiencia.
+- Objetivos, frustraciones, nivel de digitalización, canales de venta, dispositivos que usa.
+- Estilo de vida, nivel de educación, influencias.
+
+**Preguntas principales**:
+1. ¿Cuántos años lleva produciendo café?
+2. ¿Cómo es el proceso que sigue desde la siembra hasta la venta del café?
+3. ¿Qué herramientas usa actualmente para gestionar sus cultivos y ventas?
+4. ¿Con qué frecuencia enfrenta problemas relacionados al manejo de plagas o clima?
+5. ¿Cómo realiza actualmente sus ventas? ¿A quién le vende y cómo negocia precios?
+6. ¿Qué tan fácil o difícil le resulta encontrar compradores?
+7. ¿Usa algún tipo de tecnología (apps, redes sociales, hojas de cálculo)?
+8. ¿Cuáles son sus principales preocupaciones o frustraciones en el proceso de producción y comercialización?
+
+**Preguntas complementarias**:
+1. ¿Ha recibido capacitaciones o asistencia técnica en los últimos años?
+2. ¿Qué medio usa más: celular, laptop, radio, etc.?
+3. ¿Qué haría si tuviera una herramienta digital para mejorar sus ventas y gestión?
+4. ¿Qué canales digitales (WhatsApp, Facebook, etc.) usa con más frecuencia?
+5. ¿Tiene acceso a internet con frecuencia? ¿Qué tan bueno es ese acceso?
+
+#### Segmento 2: Compradores
+**Objetivo**: Entender cómo compran, qué valoran del producto, su perfil de compra, necesidades digitales y relación con los productores.
+
+**Información a recolectar**:
+- Edad, género, ubicación, tipo de empresa o negocio.
+- Canales y criterios de compra, herramientas digitales usadas, frustraciones.
+- Personalidad, objetivos, marca preferida, experiencia en el rubro.
+
+**Preguntas principales**:
+1. ¿A qué tipo de productores suele comprar café?
+2. ¿Cómo identifica o contacta a nuevos proveedores?
+3. ¿Qué aspectos valora más al momento de comprar café? (Precio, calidad, origen, certificación, etc.)
+4. ¿Qué dificultades enfrenta al negociar o cerrar una venta?
+5. ¿Qué herramientas usa para gestionar sus compras y contactos?
+6. ¿Ha tenido problemas con la trazabilidad o calidad del café que adquiere?
+7. ¿Qué espera de una solución digital que facilite su proceso de compra?
+
+**Preguntas complementarias**:
+1. ¿Con qué frecuencia compra café y en qué volumen?
+2. ¿Usa algún sistema o app para gestionar proveedores?
+3. ¿Estaría dispuesto a usar una plataforma que conecte directamente con pequeños productores?
+4. ¿Qué canales digitales usa más? (Correo, WhatsApp, páginas web, apps)
+
+### 2.2.2. Registro de entrevistas.
+
+### 2.2.3. Análisis de entrevistas.
+
+## 2.3. Needfinding.
+
+### 2.3.1. User Personas.
+
+El objetivo de estos arquetipos es representar de manera empática a nuestros usuarios clave y guiar el diseño centrado en sus necesidades reales. Los User Personas nos permitirán tomar decisiones de diseño, funcionalidades y estrategias alineadas con las motivaciones, frustraciones, habilidades tecnológicas y hábitos de cada perfil.
+
+#### Primer Segmento Objetivo:
+
+#### Segundo Segmento Objetivo:
+
+### 2.3.2. User Task Matrix.
+
+Para el desarrollo de esta matriz de tareas, se han considerado los dos segmentos objetivo representados en los User Persona:
+- **Don Juan Ramos**: pequeño productor de café de la sierra peruana.
+- **Lucía Fernández**: compradora para una empresa tostadora de café de especialidad.
+
+El objetivo de esta matriz es identificar qué tareas realizan estos perfiles en relación con la producción y venta de café, evaluando la frecuencia y la importancia de dichas tareas, de forma independiente a la existencia de una solución digital. Esta información nos permitirá comprender mejor sus prioridades y necesidades reales, y servirá de guía para el diseño del producto.
+
+## 2.3.2. User Task Matrix
+
+| Tarea                                         | Don Juan Ramos (Productor) | Frecuencia | Importancia | Lucía Fernández (Compradora)      | Frecuencia | Importancia |
+|----------------------------------------------|-----------------------------|------------|-------------|-----------------------------------|------------|-------------|
+| Preparar el terreno y sembrar café           | Sí                          | Alta       | Alta        | No                                | —          | —           |
+| Cuidar y monitorear el cultivo               | Sí                          | Alta       | Alta        | No                                | —          | —           |
+| Realizar la cosecha                          | Sí                          | Alta       | Alta        | No                                | —          | —           |
+| Procesar el café (lavado, secado, etc.)      | Sí                          | Alta       | Alta        | Sí (post-compra)                  | Media      | Alta        |
+| Empaquetar y almacenar el café               | Sí                          | Media      | Alta        | Sí                                | Media      | Alta        |
+| Buscar canales de venta                      | Sí                          | Alta       | Alta        | Sí                                | Alta       | Alta        |
+| Negociar precios con compradores/productores | Sí                          | Media      | Alta        | Sí                                | Alta       | Alta        |
+| Transportar el café a puntos de venta        | Sí                          | Media      | Media       | No                                | —          | —           |
+| Usar redes y plataformas digitales           | Sí                          | Baja       | Media       | Sí                                | Alta       | Alta        |
+| Verificar calidad y procedencia del café     | Sí                          | Media      | Alta        | Sí                                | Alta       | Alta        |
+| Hacer seguimiento postventa o reclamos       | Sí                          | Baja       | Media       | Sí                                | Media      | Alta        |
+| Contactar nuevos productores/proveedores     | No                          | —          | —           | Sí                                | Alta       | Alta        |
+| Realizar visitas técnicas o inspecciones     | No                          | —          | —           | Sí                                | Media      | Alta        |
+| Analizar muestras y pruebas de calidad       | No                          | —          | —           | Sí                                | Alta       | Alta        |
+| Investigar tendencias de consumo             | No                          | —          | —           | Sí                                | Media      | Media       |
+
+### 2.3.3. User Journey Mapping
+
+#### Segmento 1:
+
+#### Segmento 2:
+
+### 2.3.4. Empathy Mapping
+
+### 2.3.5. As-is Scenario Mapping
+
+## 2.4. Ubiquitous Language
+
+
