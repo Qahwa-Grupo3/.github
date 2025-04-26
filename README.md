@@ -362,4 +362,74 @@ El objetivo de esta matriz es identificar qué tareas realizan estos perfiles en
 | Creación de perfil de productor     | Como productor, quiero crear un perfil con mi información básica para que los consumidores me conozcan. | Scenario 1: Creación exitosa del perfil: <br>GIVEN que el productor está logueado <br>WHEN completa el formulario de perfil y lo envía <br>THEN el perfil se guarda correctamente <br>AND es visible para los consumidores. <br><br>Scenario 2: Campos incompletos: <br>GIVEN que el productor deja campos obligatorios sin llenar <br>WHEN intenta guardar su perfil <br>THEN recibe un mensaje de advertencia <br>AND no puede continuar hasta completarlos. | EP-002 |
 | Publicación de café para la venta   | Como productor, quiero publicar mis lotes de café para que estén disponibles para la venta.             | Scenario 1: Publicación exitosa de café: <br>GIVEN que el productor tiene café disponible <br>WHEN registra un nuevo lote <br>THEN el producto se publica en la vitrina virtual <br>AND los consumidores pueden verlo y comprarlo. <br><br>Scenario 2: Error en el registro del producto: <br>GIVEN que se omite información obligatoria <br>WHEN se intenta guardar <br>THEN el sistema marca los campos faltantes <br>AND no permite completar la publicación. | EP-002 |
 
+## Impact Mapping
+
+### Impact Mapping para Productores de Café
+
+#### GOAL:
+Empoderar a los productores de café para mejorar la calidad, visibilidad y rentabilidad de su producto a través de herramientas digitales.
+
+#### ACTOR: Productor de café
+
+| IMPACTO (Qué cambios buscamos en su comportamiento)                                              | DELIVERABLE (Qué funcionalidades construimos para lograrlo)                                                                 |
+|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| Adoptar herramientas digitales para la gestión diaria de la finca                                | Aplicación web accesible desde celular para registrar actividades por etapa del proceso (EP-001)                            |
+| Controlar y optimizar sus recursos e insumos para reducir pérdidas                              | Módulo de inventario con alertas de stock y control por lote (EP-004)                                                       |
+| Tener visibilidad sobre la calidad del café y detectar puntos críticos                          | Panel con KPIs por etapa: humedad, tipo de grano, defectos, rendimiento (EP-003)                                            |
+| Mostrar su marca y filosofía de forma auténtica y visualmente atractiva                         | Perfil personalizable con multimedia: fotos, historia, métodos, certificaciones (EP-007)                                    |
+| Vender directamente sin intermediarios y obtener más margen de ganancia                         | Tienda en línea integrada con su perfil y pasarela de pagos segura (EP-002)                                                 |
+| Conocer lo que opinan los consumidores y usarlo para mejorar el producto                        | Sección de feedback con calificaciones por lote, comentarios y tags destacados (EP-005)                                     |
+| Acceder a capacitación continua sobre prácticas sostenibles y calidad                          | Biblioteca de recursos filtrada por nivel de experiencia + asistencia técnica remota (EP-006)                               |
+| Fortalecer relaciones con clientes mostrando trazabilidad y responsabilidad social              | Trazabilidad visual del lote: origen, prácticas usadas, impacto social o ambiental (EP-004, EP-007 combinados)              |
+
+### Impact Mapping para Consumidores de Café
+
+#### GOAL:
+ Conectar a consumidores con café peruano de calidad, permitiéndoles descubrir, comprar y valorar productos directamente desde el origen.
+ 
+#### ACTOR: Consumidor de café
+
+| IMPACTO (Qué deben poder hacer o cambiar)                          | DELIVERABLE (Qué vamos a construir para lograrlo)                                           |
+|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| Explorar y comprar café directamente del productor                | Marketplace con filtros, fichas de producto y pasarela de pago (EP-008)                     |
+| Dejar reseñas y calificar cafés para otros usuarios               | Sistema de reseñas, calificaciones y favoritos (EP-009)                                     |
+| Conocer la historia y el origen del café que consumen             | Acceso al perfil del productor, historia y prácticas (EP-010)                               |
+| Recibir recomendaciones personalizadas                            | Algoritmo de sugerencias y panel de preferencias (EP-011)                                   |
+| Hacer seguimiento a sus pedidos y ver historial                   | Panel de pedidos con estado, fechas y detalles (EP-012)                                     |
+| Obtener soporte si hay problemas con su compra                    | Sistema de soporte: chat, formularios y seguimiento de casos (EP-013)                       |
+
+## 3.4. Product Backlog
+
+| Orden | User Story/Technical Story ID | Título                                           | Descripción                                                                                              | Story Points |
+|-------|-------------------------------|--------------------------------------------------|----------------------------------------------------------------------------------------------------------|--------------|
+| 1     | US-001-01                     | Registro de etapas de producción                 | Como productor, quiero registrar todas las etapas de producción del café para tener un historial detallado. | 5            |
+| 2     | US-002-01                     | Crear perfil del productor                       | Como productor, quiero crear un perfil que incluya mi historia y métodos de cultivo para conectar con los consumidores. | 5            |
+| 3     | US-003-01                     | Visualización de métricas de calidad             | Como productor, quiero visualizar indicadores de calidad del café para mejorar mi producción.            | 8            |
+| 4     | US-004-01                     | Gestión de inventario y trazabilidad             | Como productor, quiero gestionar mi inventario y asegurarme de que cada lote esté rastreado.             | 8            |
+| 5     | US-005-01                     | Acceder a opiniones de los consumidores          | Como productor, quiero acceder a calificaciones y comentarios para entender cómo perciben mi café.       | 3            |
+| 6     | US-006-01                     | Acceso a recursos de aprendizaje                 | Como productor, quiero tener acceso a recursos educativos y asistencia técnica sobre la producción de café. | 5            |
+| 7     | US-007-01                     | Personalización del perfil                       | Como productor, quiero poder personalizar mi perfil con fotos y detalles sobre mi finca y prácticas.     | 3            |
+| 8     | US-008-01                     | Creación de tienda en línea                      | Como productor, quiero crear una tienda en línea para vender mi café directamente a los consumidores.    | 8            |
+| 9     | US-008-02                     | Explorar y comprar café                          | Como consumidor, quiero explorar una selección de cafés y comprarlos directamente de los productores.     | 5            |
+| 10    | US-009-01                     | Dejar reseñas y calificaciones                   | Como consumidor, quiero dejar reseñas y calificar los cafés que he comprado para ayudar a otros usuarios. | 3            |
+| 11    | US-010-01                     | Ver historia del productor                       | Como consumidor, quiero acceder a la historia y el origen de los cafés para conocer más sobre el producto.| 3            |
+| 12    | US-011-01                     | Recibir recomendaciones personalizadas          | Como consumidor, quiero recibir recomendaciones personalizadas de cafés basadas en mis preferencias.     | 5            |
+| 13    | US-012-01                     | Consultar estado del pedido                      | Como consumidor, quiero consultar el estado y detalles de mis pedidos para hacer un seguimiento adecuado. | 5            |
+| 14    | US-013-01                     | Solicitar soporte durante la compra              | Como consumidor, quiero recibir soporte en caso de problemas con mi compra, entrega o calidad del producto. | 3            |
+| 15    | US-014-01                     | Registro de lotes de café                        | Como productor, quiero registrar la información de cada lote de café para hacer seguimiento detallado.   | 5            |
+| 16    | US-015-01                     | Ver análisis de calidad por lote                 | Como productor, quiero obtener un análisis detallado de la calidad de cada lote para tomar decisiones informadas. | 8            |
+| 17    | US-016-01                     | Notificaciones de eventos clave                  | Como productor, quiero recibir notificaciones sobre eventos clave durante el proceso de producción.      | 3            |
+| 18    | US-017-01                     | Generación de informes de rendimiento            | Como productor, quiero generar informes sobre el rendimiento de mi producción para mejorar mis métodos.  | 5            |
+| 19    | US-018-01                     | Integración con redes sociales                   | Como productor, quiero integrar mi perfil con redes sociales para aumentar la visibilidad de mi marca.   | 5            |
+| 20    | US-019-01                     | Registro de ventas realizadas                    | Como productor, quiero llevar un registro de las ventas realizadas para hacer seguimiento adecuado.      | 5            |
+| 21    | US-020-01                     | Control de calidad durante el secado             | Como productor, quiero controlar la calidad del café durante el secado para asegurar buena calidad final. | 8            |
+| 22    | US-021-01                     | Sistema de autenticación                         | Como productor, quiero que mi cuenta esté protegida con autenticación segura para evitar accesos no autorizados. | 3            |
+| 23    | US-022-01                     | Implementar pagos en la plataforma               | Como productor, quiero poder recibir pagos a través de la plataforma para procesar las transacciones.    | 8            |
+| 24    | US-023-01                     | Recomendaciones de productos relacionados        | Como consumidor, quiero ver recomendaciones de cafés relacionados para descubrir más productos.          | 5            |
+| 25    | US-024-01                     | Filtros por sabor, intensidad y origen           | Como consumidor, quiero filtrar cafés por características (sabor, intensidad, origen) para buscar mejor. | 5            |
+| 26    | US-025-01                     | Guardar cafés favoritos                          | Como consumidor, quiero guardar mis cafés favoritos para comprarlos más tarde.                           | 3            |
+| 27    | US-026-01                     | Ver detalles de envío y tiempos de entrega       | Como consumidor, quiero conocer los detalles de envío y los tiempos estimados de entrega.                | 3            |
+| 28    | US-027-01                     | Notificaciones del estado del pedido             | Como consumidor, quiero recibir notificaciones en tiempo real sobre el estado de mi pedido.              | 3            |
+| 29    | US-028-01                     | Sistema de seguimiento de pedidos                | Como consumidor, quiero hacer un seguimiento detallado de mis pedidos desde la compra hasta la entrega.  | 5            |
+
 
