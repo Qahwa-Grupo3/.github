@@ -124,6 +124,10 @@ Nos enfocaremos inicialmente en productores cafetaleros de la región Cajamarca,
 
 #### 1.2.2.4. Lean UX Canvas
 
+<p align="center">
+  <img src="img/Lean UX Canvas.png" alt="Lean UX Canvas" width="500">
+</p>
+
 ## 1.3. Segmentos objetivos
 
 
@@ -286,7 +290,15 @@ El objetivo de estos arquetipos es representar de manera empática a nuestros us
 
 #### Primer Segmento Objetivo:
 
+<p align="center">
+  <img src="img/userPersona1.png" alt="User Persona 1" width="500">
+</p>
+
 #### Segundo Segmento Objetivo:
+
+<p align="center">
+  <img src="img/userPersona2.png" alt="User Persona 2" width="500">
+</p>
 
 ### 2.3.2. User Task Matrix.
 
@@ -320,9 +332,25 @@ El objetivo de esta matriz es identificar qué tareas realizan estos perfiles en
 
 #### Segmento 1:
 
+<p align="center">
+  <img src="img/userJourney1.png" alt="User Journey 1" width="500">
+</p>
+
 #### Segmento 2:
 
+<p align="center">
+  <img src="img/userJourney2.png" alt="User Journey 2" width="500">
+</p>
+
 ### 2.3.4. Empathy Mapping
+
+<p align="center">
+  <img src="img/empathyMap1.png" alt="Empathy Mapping 1" width="500">
+</p>
+
+<p align="center">
+  <img src="img/empathyMap2.png" alt="Empathy Mapping 2" width="500">
+</p>
 
 ### 2.3.5. As-is Scenario Mapping
 
@@ -684,15 +712,57 @@ La navegación está pensada para ser intuitiva y predecible. Se aplican patrone
 
 #### 4.3.1. Landing Page Wireframe
 
+<p align="center">
+  <img src="img/landingWireframe.png" alt="Landing Wireframe" width="500">
+</p>
+
+### 4.3.2. Landing Page Mockup
+
+<p align="center">
+  <img src="img/landingMockup.png" alt="Landing Mockup" width="500">
+</p>
+
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
 
+<p align="center">
+  <img src="img/webappWireframe1.png" alt="Web App Wireframe 1" width="500">
+</p>
+
+<p align="center">
+  <img src="img/webappWireframe2.png" alt="Web App Wireframe 2" width="500">
+</p>
+
+<p align="center">
+  <img src="img/webappWireframe3.png" alt="Web App Wireframe 3" width="500">
+</p>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
+
+<p align="center">
+  <img src="img/webappWireflow.png" alt="web app Wireflow" width="500">
+</p>
 
 ### 4.4.2. Web Applications Mock-ups
 
+<p align="center">
+  <img src="img/webappMockup.png" alt="Web App Mockup " width="500">
+</p>
+
+<p align="center">
+  <img src="img/webappMockup1.png" alt="Web App Mockup 1" width="500">
+</p>
+
+<p align="center">
+  <img src="img/webappMockup2.png" alt="Web App Mockup 2" width="500">
+</p>
+
 ### 4.4.3. Web Applications User Flow Diagrams
+
+<p align="center">
+  <img src="img/Flowchart.jpg" alt="Flow chart" width="500">
+</p>
 
 ## 4.5. Web Applications Prototyping
 
@@ -708,13 +778,29 @@ Además, se ha diseñado un sistema de diseño responsivo que adapta los element
 
 ### 4.6.1. Software Architecture Context Diagram
 
+<p align="center">
+  <img src="img/Software Architecture Context Diagram.png" alt="Software Architecture Context Diagram" width="500">
+</p>
+
 ### 4.6.2. Software Architecture Container Diagrams
 
+<p align="center">
+  <img src="img/Software Architecture Container Diagrams.png" alt="Software Architecture Container Diagram" width="500">
+</p>
+
 ### 4.6.3. Software Architecture Components Diagrams
+
+<p align="center">
+  <img src="img/Software Architecture – Components Diagram.png" alt="Software Architecture Components Diagram" width="500">
+</p>
 
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
+
+<p align="center">
+  <img src="img/classDiagram.png" alt="Class Diagram" width="500">
+</p>
 
 ### 4.7.2. Class Dictionary
 
@@ -734,6 +820,10 @@ Además, se ha diseñado un sistema de diseño responsivo que adapta los element
 ---
 
 ## 4.8. Database Design
+
+<p align="center">
+  <img src="img/databseDiagram.png" alt="Data Base Diagram" width="500">
+</p>
 
 #### USUARIOS
 
