@@ -72,15 +72,46 @@ Nuestro sistema estará enfocado inicialmente en los pequeños productores (sect
 
   1.2.2 Lean UX Process.
 
-  1.2.2.1. Lean UX Problem Statements.
+El enfoque Lean UX aplicado en este proyecto nos ha permitido definir una visión clara del modelo de negocio, identificar con precisión los problemas del usuario y plantear hipótesis que guíen el desarrollo de un sistema centrado en las necesidades reales de los productores cafetaleros.
 
-  1.2.2.2. Lean UX Assumptions.
+1.2.2.1. Lean UX Problem Statements.
+
+Domain (Dominio del problema):
+El dominio del problema es la gestión de procesos agrícolas y de comercialización en la producción de café peruano, especialmente en manos de pequeños productores con recursos limitados y sin acceso a herramientas digitales especializadas.
+
+Customer Segments (Segmentos de clientes): - Pequeños productores de café. - Técnicos agrícolas y asociaciones/cooperativas cafetaleras. - Intermediarios y compradores.
+
+Pain Points (Puntos de dolor): - Falta de digitalización en el control de procesos agrícolas. - Escasa trazabilidad de la producción de café. - Dificultades para registrar y analizar actividades agrícolas. - Pérdida de oportunidades comerciales por no demostrar calidad del café.
+
+Gap (Brecha identificada):
+Existe una desconexión entre el potencial del café peruano y la forma en que se gestiona su producción y venta, debido a la ausencia de herramientas tecnológicas simples, accesibles y adaptadas al entorno rural.
+
+Vision / Strategy:
+Desarrollar una plataforma web accesible y fácil de usar, que permita a los caficultores registrar, organizar y monitorear todo el ciclo de producción y comercialización de su café, desde la siembra hasta la venta, fortaleciendo la trazabilidad, eficiencia y el acceso a mercados de valor.
+
+Initial Segment:
+Nos enfocaremos inicialmente en productores cafetaleros de la región Cajamarca, que representan uno de los focos más importantes de producción nacional y tienen un alto nivel de organización local a través de cooperativas y asociaciones.
+
+1.2.2.2. Lean UX Assumptions.
+
+- Los productores cafetaleros están interesados en mejorar la gestión de sus cultivos y ventas.
+- La mayoría cuenta con acceso a un celular con internet o a centros de conectividad cercanos.
+- Prefieren soluciones simples, visuales y adaptadas a su nivel de alfabetización digital.
+- Las cooperativas o técnicos agrícolas pueden cumplir un rol clave en la adopción inicial del sistema.
+- Existe mercado para el café con trazabilidad comprobada.
 
   1.2.2.3. Lean UX Hypothesis Statements.
 
+- Si brindamos una plataforma web fácil de usar para registrar las actividades agrícolas, los productores cafetaleros podrán llevar un mejor control de su producción y reducir pérdidas por desorganización.
+- Si los productores pueden demostrar la trazabilidad de su café, tendrán más oportunidades para acceder a mercados con mejores precios.
+- Si los técnicos agrícolas pueden supervisar múltiples parcelas desde el sistema, se optimizará la asistencia técnica y el rendimiento productivo.
+- Si los compradores tienen acceso a información detallada de cada lote de café, confiarán más en el producto y establecerán relaciones comerciales más directas y justas.
+
   1.2.2.4. Lean UX Canvas.
 
-  1.3. Segmentos objetivo.
+![Lean UX Canvas](README_images/LeanUXCanvas.jpg)
+
+1.3. Segmentos objetivo.
 
 Segmento 1: Pequeños productores de Café
 Descripción: agricultores que cultivan café de forma tradicional y familiar.
