@@ -319,6 +319,20 @@ Con estas estrategias, Qahwa busca posicionarse como una solución integral, acc
 
 ### 2.2.2. Registro de entrevistas.
 
+Primer segmento Objetivo:
+
+<p align="center">
+  <img src="images/entrevistaJhordi.png" alt="Text" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/personal/u20191e835_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191e835%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20a%20Productor%20%2D%20By%20Jhordi%20Carranza%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ebf5a4b4c%2Da522%2D4a35%2D859a%2D2d1a7e388060&isDarkMode=false
+
+Segundo segmento Objetivo:
+
+<p align="center">
+  <img src="images/entrevistaValentino.png" alt="Text" width="500">
+</p>
+https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315628_upc_edu_pe/EvuPCAPfGQZCqRt3wJYFIJUBGucW25qY1Qk1_dlq5M7lRA?e=fuksvP
+
 ### 2.2.3. Análisis de entrevistas.
 
 ## 2.3. Needfinding.
