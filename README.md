@@ -1,8 +1,8 @@
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 
 <p align="center"><strong>Ingeniería de Software</strong><br>
-Desarrollo de Aplicaciones Open Source <br>
-<strong>Profesor:</strong> Alberto Wilmer Sanchez Seña </p>
+Aplicaciones Web <br>
+<strong>Profesor:</strong> Sánchez Ponce, Alex Humberto </p>
 
 <h2 align="center">INFORME</h2>
 
