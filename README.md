@@ -807,6 +807,8 @@ La navegación está pensada para ser intuitiva y predecible. Se aplican patrone
 
 ### 4.3. Landing Page UI Design
 
+Link del figma: https://www.figma.com/design/PBMT7m2WRVNmkRplKgbnZc/Open-Source-project?node-id=0-1&p=f&t=Em8XxMPaoFQ3x7sm-0
+
 #### 4.3.1. Landing Page Wireframe
 
 <p align="center">
