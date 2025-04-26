@@ -432,4 +432,664 @@ Empoderar a los productores de café para mejorar la calidad, visibilidad y rent
 | 28    | US-027-01                     | Notificaciones del estado del pedido             | Como consumidor, quiero recibir notificaciones en tiempo real sobre el estado de mi pedido.              | 3            |
 | 29    | US-028-01                     | Sistema de seguimiento de pedidos                | Como consumidor, quiero hacer un seguimiento detallado de mis pedidos desde la compra hasta la entrega.  | 5            |
 
+# Capítulo IV: Product Design
+
+## 4.1. Style Guidelines
+
+### 4.1.1. General Style Guidelines
+
+#### 1. Branding
+
+**Qahwa** es una plataforma web que conecta a productores cafetaleros con compradores directos. Su estilo visual está inspirado en el comercio justo, la cercanía humana y el respeto por el origen natural del café. La marca transmite confianza, transparencia y autenticidad, elementos cruciales para usuarios tanto rurales como urbanos.
+
+- **Nombre**: *Qahwa* (قهوة) proviene del árabe clásico para “café”, haciendo alusión a sus raíces milenarias.  
+- **Personalidad visual**: Natural, artesanal, tecnológica pero accesible.
+
+#### 2. Paleta de Colores
+
+La identidad visual gira en torno a colores cálidos, inspirados en el café y la naturaleza:
+
+| Nombre              | Hexadecimal | Uso en la interfaz                                           |
+|---------------------|-------------|--------------------------------------------------------------|
+| Marrón Café Oscuro  | `#5E3C2C`   | Fondo del header, botones principales, títulos destacados    |
+| Beige Claro         | `#F5ECD9`   | Fondos de tarjetas, formularios, contenedores secundarios    |
+| Verde Natural       | `#4CAF50`   | Estados positivos, botones de acción secundaria              |
+| Gris Claro          | `#E0E0E0`   | Bordes, separadores, inputs desactivados                    |
+| Blanco              | `#FFFFFF`   | Fondo general y contraste en textos                         |
+| Negro suave         | `#333333`   | Texto principal                                             |
+
+**Principios aplicados**: Inspiración terrosa, tonos cálidos y contraste balanceado. Se evita el uso de colores saturados para mantener una estética sobria, moderna y respetuosa con el usuario.
+
+### 3. Tipografía
+
+- **Fuente principal**: Poppins (Google Fonts)  
+- **Fuente secundaria**: Roboto (solo en casos puntuales, por compatibilidad o legibilidad)
+
+#### Jerarquía tipográfica
+
+| Jerarquía    | Peso / Tamaño | Uso                                 |
+|--------------|----------------|--------------------------------------|
+| H1 (Títulos) | Bold / 32px     | Títulos de página y secciones        |
+| H2 (Subtítulos) | SemiBold / 24px | Subtítulos o encabezados menores     |
+| Body         | Regular / 16px  | Textos principales                  |
+| Small text   | Regular / 14px  | Notas, etiquetas y tooltips        |
+| Links y botones | Medium / 16px | Acciones e interacciones            |
+
+**Justificación**: Poppins tiene curvas suaves y una estructura amigable, lo que transmite cercanía sin sacrificar profesionalismo. Es legible tanto en móvil como en escritorio.
+
+### 4. Espaciado y Estructura
+
+- **Grid layout**: 12 columnas (Material Design responsive grid)
+
+#### Espaciados verticales
+
+- Entre secciones: 48px  
+- Entre elementos: 24px  
+- Entre texto y contenedor: 16px  
+- Padding estándar en tarjetas y formularios: 24px  
+- Botones: Altura mínima de 48px para accesibilidad
+
+**Objetivo**: Generar respiro visual, reforzar jerarquía y facilitar la navegación incluso con conexión lenta o pantallas pequeñas.
+
+### 5. Iconografía
+
+- **Estilo de íconos**: Línea delgada (outline), minimalistas, con esquinas redondeadas  
+- **Librería base**: Material Icons y Feather Icons  
+- **Tamaño estándar**: 24px × 24px  
+- **Colores**:  
+  - `#5E3C2C` sobre fondo claro  
+  - Blanco sobre botones marrón
+
+#### Íconos en el footer
+
+| Sección   | Ícono        |
+|-----------|--------------|
+| Inicio    | `home`       |
+| Publicar  | `add_box`    |
+| Pedidos   | `shopping_cart` |
+| Perfil    | `person`     |
+
+**Criterio**: Los íconos son reconocibles universalmente y mantienen coherencia con el estilo cálido pero funcional del diseño.
+
+### 6. Tono de Comunicación y Lenguaje
+
+- **Tono general**: Cálido, humano, directo  
+- **Estilo**: Semi-formal con enfoque comunitario  
+
+#### Características del lenguaje
+
+- Frases cortas y amables:  
+  - “¡Bienvenido, Don Luis!”  
+  - “Tu publicación ya está visible.”  
+  - “Ha ocurrido un error con la transacción de los datos del sistema.”  
+- En caso de errores:  
+  - Mensajes simples: “No se pudo guardar. Intenta otra vez.”  
+- Se evita tecnicismos y jerga compleja  
+- Inclusión del lenguaje rural y cotidiano cuando sea posible, especialmente en formularios para productores
+
+#### Tabla de contexto
+
+| Contexto   | Estilo sugerido                        |
+|------------|----------------------------------------|
+| Éxitos     | Agradecimiento o confirmación cálida   |
+| Errores    | Claridad y soluciones simples          |
+| Formularios| Instrucciones concretas, con ejemplos  |
+
+### 7. Interacción y Microcopy
+
+- **Botones**: Claros y directos (“Publicar ahora”, “Ver pedidos”, “Guardar”)  
+- **Placeholders**: Orientativos (“Ejemplo: 50 kg de café pergamino”)  
+- **Mensajes de ayuda**: Cortos, visibles cerca del input
+
+### 8. Responsive Design
+
+- Diseñado **mobile-first**  
+- Se adapta a móviles de gama media, tablets y desktop  
+- **Footer** visible siempre en móviles  
+- **Navegación lateral** (sidebar) visible solo en desktop
+
+## 4.1.2. Web Style Guidelines
+
+Esta guía define los estándares visuales y de interacción de **Qahwa** para entornos *responsive*. Está orientada a garantizar consistencia visual, usabilidad intuitiva y escalabilidad en las interfaces web y móviles, promoviendo una experiencia coherente para todos los tipos de usuarios, desde pequeños productores rurales hasta compradores urbanos y técnicos de campo.
+
+### Responsive Web Interfaces
+
+Qahwa está diseñada *mobile-first*, con una arquitectura que garantiza acceso pleno desde dispositivos móviles de gama media. Su estilo visual se adapta fluidamente entre pantallas pequeñas (smartphones), medianas (tablets) y grandes (laptops y PCs).
+
+**Principios clave:**
+
+- **Accesibilidad:** Contraste suficiente, tamaños legibles y botones táctiles grandes.
+- **Consistencia visual:** Colores, tipografías y componentes reutilizables en toda la interfaz.
+- **Adaptabilidad:** Componentes que cambian su disposición y visibilidad según el dispositivo.
+- **Interacción amigable:** Tiempos de respuesta rápidos, microinteracciones sutiles y navegación clara.
+
+## 4.2. Information Architecture
+
+La arquitectura de información de Qahwa se basa en principios de simplicidad, visibilidad progresiva y facilidad de acceso. Nuestro enfoque prioriza que los usuarios encuentren lo que buscan con rapidez y comprendan cómo navegar desde el primer contacto con la plataforma.
+
+El sistema está diseñado para personas con distintos niveles de alfabetización digital, por lo que se aplica una estructura comprensible, organizada y centrada en tareas.
+
+### 4.2.1. Organization Systems
+
+Qahwa utiliza múltiples modelos de organización según el tipo de contenido, propósito de la sección y perfil del usuario.
+
+#### Organización Visual
+
+**Jerárquica (Visual Hierarchy):**
+- Se aplica en el *Home*, *Landing Page* y en páginas de perfil, donde se destaca primero la información más importante (ej. nombre del productor, último pedido recibido, alertas importantes).
+- Utiliza títulos grandes, espacios en blanco generosos y elementos visuales como tarjetas o bloques de color.
+
+**Secuencial (Step-by-step):**
+- Aparece en flujos como “Publicar un nuevo producto”, “Realizar un pedido” o “Editar perfil”.
+- Cada paso está claramente numerado o separado por pantallas distintas.
+
+**Matricial:**
+- Para mostrar catálogos de productos, historial de pedidos o listas de usuarios, se usan estructuras tipo *grid* (rejilla).
+- Se permite filtrado dinámico para facilitar la búsqueda.
+
+#### Esquemas de Categorización
+
+- **Por tópicos:** Café pergamino, café tostado, otros productos relacionados.
+- **Según audiencia:** Vistas diferentes para productores y compradores (roles).
+- **Cronológico:** Pedidos por fecha, publicaciones recientes.
+- **Por estado:** Pedidos “pendientes”, “en camino”, “completados”.
+- **Por ubicación:** Listados filtrables por región o departamento.
+
+### 4.2.2. Labeling Systems
+
+Los sistemas de etiquetado buscan ser claros, concisos y comprensibles para usuarios de distintas regiones y niveles educativos. Se evita el uso de jergas técnicas.
+
+**Principios aplicados:**
+
+- Etiquetas breves (1–3 palabras).
+- Uso de términos familiares (“Mi cuenta”, “Mis pedidos”, “Subir producto”).
+- Consistencia semántica: la misma palabra se usa para la misma acción en todo el sitio.
+- Se incluyen íconos de refuerzo junto a palabras clave (ej. ícono de camión al lado de “Pedidos”).
+
+**Ejemplos:**
+
+| Elemento            | Etiqueta usada       |
+|---------------------|----------------------|
+| Botón publicar      | “Subir producto”     |
+| Panel del productor | “Mis publicaciones”  |
+| Historial de venta  | “Mis pedidos”        |
+| Acción de compra    | “Hacer pedido”       |
+| Edición de perfil   | “Actualizar datos”   |
+
+### 4.2.3. SEO Tags and Meta Tags
+
+Los siguientes metadatos están definidos para mejorar el posicionamiento en buscadores y asegurar una buena descripción cuando se comparta la plataforma en redes sociales o motores de búsqueda:
+
+#### Landing Page
+
+- **Title:** Qahwa – Conecta con productores cafetaleros de forma directa
+- **Meta Description:** Descubre Qahwa, la plataforma que une a productores de café con compradores responsables. Comercio justo, directo y sin intermediarios.
+- **Meta Keywords:** café, productores peruanos, comercio justo, venta de café, Qahwa, agricultura, cooperativas
+- **Meta Author:** Qahwa Team
+
+#### Web App
+
+- **Title:** Qahwa – Tu panel de productor y comprador de café
+- **Meta Description:** Gestiona tus publicaciones, pedidos y ventas de café directamente con otros usuarios. Fácil, rápido y seguro.
+- **Meta Keywords:** café pergamino, pedidos de café, compradores de café, plataforma cafetera
+- **Meta Author:** Qahwa Team
+
+### 4.2.4. Searching Systems
+
+Qahwa implementa un sistema de búsqueda filtrable y progresiva, con resultados visuales fáciles de escanear.
+
+**Elementos del sistema de búsqueda:**
+
+- **Barra de búsqueda global:** Disponible en páginas de productos y pedidos.
+- **Filtros por:**
+  - Tipo de producto
+  - Ubicación del productor
+  - Precio por kg
+  - Fecha de publicación
+- **Autocompletado:** Sugiere palabras clave comunes.
+- **Resultados tipo tarjeta:** Con miniatura, nombre del productor, tipo de café, precio, botón de “Ver más”.
+
+**Apoyo adicional:**
+
+- Mensajes tipo “No se encontraron productos con esos filtros”.
+- Opción de “Limpiar filtros”.
+- Ícono de lupa y etiqueta "Buscar" para claridad inmediata.
+
+### 4.2.5. Navigation Systems
+
+La navegación está pensada para ser intuitiva y predecible. Se aplican patrones estándar con refuerzos visuales (íconos, cambios de color, feedback inmediato).
+
+**Estructura de navegación:**
+
+- **Landing Page (visitantes):**
+  - Menú superior fijo (Desktop)
+  - Botón hamburguesa (Mobile)
+  - Secciones: ¿Qué es Qahwa?, ¿Cómo funciona?, Ingresar, Registrarse
+  - CTA visibles (“Unirme como productor”)
+
+- **Web App:**
+  - **Barra de navegación inferior (mobile):**
+    - Íconos + etiquetas: Inicio, Publicar, Pedidos, Perfil
+  - **Sidebar lateral (desktop):**
+    - Expande al hacer hover o clic
+  - **Breadcrumbs:** En vistas jerárquicas como Detalles de pedido
+
+**Principios:**
+
+- El usuario siempre sabe dónde está y cómo volver.
+- Rutas claras, sin loops confusos.
+- Menú de navegación visible en todo momento (fijo o flotante).
+
+### 4.3. Landing Page UI Design
+
+#### 4.3.1. Landing Page Wireframe
+
+## 4.4. Web Applications UX/UI Design
+
+### 4.4.1. Web Applications Wireframes
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+### 4.4.2. Web Applications Mock-ups
+
+### 4.4.3. Web Applications User Flow Diagrams
+
+## 4.5. Web Applications Prototyping
+
+En esta sección se presentan los prototipos de las aplicaciones web tanto para vista de escritorio como para dispositivos móviles, desarrollados con base en los flujos definidos en los *User Flow Diagrams*. Estos prototipos simulan la experiencia de navegación e interacción que tendrán los usuarios, permitiendo validar la usabilidad de la interfaz, la arquitectura de la información y la efectividad del sistema de navegación planteado.
+
+Los criterios que guiaron las decisiones de interacción están centrados en ofrecer una experiencia fluida, intuitiva y coherente entre todas las plataformas. Se priorizó la accesibilidad, la facilidad de uso y la estética funcional, siguiendo los principios del diseño centrado en el usuario.
+
+Las decisiones aquí evidencian la aplicación de la arquitectura de información previamente desarrollada, en especial en lo que respecta al sistema de navegación (*Navigation Systems*), la estructura jerárquica del contenido (*Organization Systems*) y los sistemas de búsqueda integrados (*Searching Systems*).
+
+Además, se ha diseñado un sistema de diseño responsivo que adapta los elementos visuales y de interacción según el tipo de dispositivo, garantizando una experiencia consistente y optimizada tanto en computadoras como en móviles.
+
+## 4.6. Domain-Driven Software Architecture
+
+### 4.6.1. Software Architecture Context Diagram
+
+### 4.6.2. Software Architecture Container Diagrams
+
+### 4.6.3. Software Architecture Components Diagrams
+
+## 4.7. Software Object-Oriented Design
+
+### 4.7.1. Class Diagrams
+
+### 4.7.2. Class Dictionary
+
+| Clase         | Atributos                                       | Métodos principales |
+|---------------|--------------------------------------------------|----------------------|
+| **Usuario**     | id, nombres, apellidos, correo, contraseña, tipo | iniciarSesion(), registrarse(), verPerfil() |
+| **Productor**   | dni, telefono, region                            | gestionarPerfil(), verProduccion(), verInventario(), verPublicaciones(), verPedidos() |
+| **Comprador**   | direccionEntrega                                  | gestionarPerfil(), explorarCafes(), verHistorialPedidos(), verCarrito() |
+| **ProduccionUI** | ---                                             | mostrarListado(), verDetalles(id) |
+| **InventarioUI** | ---                                             | mostrarInventario(), agregarItem() |
+| **PublicacionesUI** | ---                                         | mostrarPublicaciones(), agregarPublicacion() |
+| **PedidosUI**   | ---                                              | mostrarPedidos(), verDetallePedido(id) |
+| **ExplorarUI**  | ---                                              | listarCafes(), verDetalleCafe(id) |
+| **HistorialUI** | ---                                              | listarPedidos(), verDetallePedido(id) |
+| **CarritoUI**   | ---                                              | mostrarCarrito(), confirmarCompra() |
+
+---
+
+## 4.8. Database Design
+
+#### USUARIOS
+
+| Campo           | Tipo       | Descripción                     |
+|------------------|------------|----------------------------------|
+| id_usuario       | INT (PK)   | Identificador único              |
+| nombres          | VARCHAR    | Nombres del usuario              |
+| apellidos        | VARCHAR    | Apellidos                        |
+| correo           | VARCHAR    | Correo electrónico               |
+| contraseña       | VARCHAR    | Contraseña cifrada               |
+| tipo             | ENUM       | 'productor' o 'comprador'        |
+| fecha_registro   | DATETIME   | Fecha de creación de la cuenta   |
+
+#### PRODUCTORES
+
+| Campo         | Tipo        | Descripción              |
+|----------------|-------------|---------------------------|
+| id_productor   | INT (PK, FK) | Relación con usuarios     |
+| dni            | VARCHAR     | DNI del productor         |
+| telefono       | VARCHAR     | Número de teléfono        |
+| region         | VARCHAR     | Región del Perú           |
+
+#### COMPRADORES
+
+| Campo             | Tipo        | Descripción                        |
+|--------------------|-------------|-------------------------------------|
+| id_comprador       | INT (PK, FK) | Relación con usuarios               |
+| direccion_entrega  | TEXT        | Dirección donde se entrega café     |
+
+#### CAFÉS
+
+| Campo             | Tipo       | Descripción                    |
+|--------------------|------------|---------------------------------|
+| id_cafe            | INT (PK)   | ID único del producto           |
+| id_productor       | INT (FK)   | Relación con productores        |
+| nombre             | VARCHAR    | Nombre del café                 |
+| descripcion        | TEXT       | Descripción del café            |
+| tipo_grano         | VARCHAR    | Ej: Arábica, Robusta, etc.      |
+| region             | VARCHAR    | Región de origen                |
+| precio_kg          | DECIMAL    | Precio por kilo                 |
+| stock_kg           | INT        | Inventario disponible           |
+| fecha_publicacion  | DATETIME   | Fecha de publicación            |
+
+#### PUBLICACIONES
+
+| Campo        | Tipo      | Descripción              |
+|---------------|-----------|---------------------------|
+| id_publicacion | INT (PK) | ID único                  |
+| id_cafe        | INT (FK) | Café asociado             |
+| titulo         | VARCHAR  | Título de la publicación  |
+| contenido      | TEXT     | Descripción o detalles    |
+| fecha          | DATETIME | Fecha de publicación      |
+
+#### CARRITOS
+
+| Campo         | Tipo      | Descripción                       |
+|----------------|-----------|------------------------------------|
+| id_carrito     | INT (PK) | ID único                           |
+| id_comprador   | INT (FK) | Comprador dueño del carrito        |
+| estado         | ENUM     | 'activo', 'comprado'               |
+| fecha_creado   | DATETIME | Fecha de creación                  |
+
+#### CARRITO_ITEMS
+
+| Campo         | Tipo      | Descripción                          |
+|----------------|-----------|---------------------------------------|
+| id_item        | INT (PK) | ID único                              |
+| id_carrito     | INT (FK) | Carrito al que pertenece              |
+| id_cafe        | INT (FK) | Café agregado                         |
+| cantidad_kg    | INT      | Cantidad en kg                        |
+| subtotal       | DECIMAL  | Precio total por ítem                 |
+
+#### PEDIDOS
+
+| Campo         | Tipo      | Descripción                |
+|----------------|-----------|-----------------------------|
+| id_pedido      | INT (PK) | ID del pedido               |
+| id_comprador   | INT (FK) | Comprador                   |
+| id_productor   | INT (FK) | Productor                   |
+| total          | DECIMAL  | Monto total                 |
+| fecha_pedido   | DATETIME | Fecha de compra             |
+| estado         | ENUM     | 'pendiente', 'enviado', 'entregado' |
+
+#### PEDIDOS_DETALLES
+
+| Campo           | Tipo      | Descripción                |
+|------------------|-----------|-----------------------------|
+| id_detalle       | INT (PK) | ID único                    |
+| id_pedido        | INT (FK) | Pedido asociado             |
+| id_cafe          | INT (FK) | Café vendido                |
+| cantidad_kg      | INT      | Cantidad de café            |
+| precio_unitario  | DECIMAL  | Precio por kilo             |
+
+---
+
+### Relaciones clave
+
+- `usuarios` se relaciona con `productores` y `compradores` según su tipo.
+- `productores` publican cafés, y esos cafés pueden tener publicaciones.
+- `compradores` pueden explorar cafés, agregarlos a un carrito, y luego confirmar un pedido.
+- `carrito_items` agrupa productos antes de confirmar un pedido.
+- `pedidos` se enlazan con los cafés mediante `pedido_detalles`.
+
+---
+
+### 4.8.1. Database Diagram
+
+## 5.1. Software Configuration Management
+
+### 5.1.1. Software Development Environment Configuration
+
+Esta sección describe las herramientas y entornos utilizados durante el desarrollo del sistema, con el objetivo de garantizar la trazabilidad, reproducibilidad y continuidad del proyecto por parte de los miembros actuales y futuros. Se han seleccionado plataformas accesibles, ampliamente adoptadas en la industria y con capacidades colaborativas, alineadas con las necesidades de un equipo multidisciplinario.
+
+#### Project Management
+
+**Trello** – [https://trello.com/](https://trello.com/)  
+Para la gestión de tareas se empleó Trello, una herramienta basada en tableros Kanban que facilita el seguimiento visual del progreso del proyecto. Cada fase del desarrollo se organizó en listas representando los estados de avance (Por hacer, En curso, Hecho), mientras que las tareas individuales se definieron en tarjetas que permitieron asignaciones específicas, fechas límite y comentarios colaborativos. Su facilidad de uso, integración con otras herramientas (como Slack o Google Drive) y disponibilidad desde múltiples dispositivos la convirtieron en una opción efectiva para la coordinación del equipo.
+
+#### Requirements Management
+
+**Google Docs** – [https://docs.google.com/](https://docs.google.com/)  
+Los requisitos funcionales y no funcionales del sistema fueron redactados, discutidos y validados mediante Google Docs. Su característica de edición colaborativa en tiempo real permitió que todos los miembros del equipo pudieran intervenir activamente durante las sesiones de análisis y refinamiento de requisitos, incluyendo comentarios, sugerencias y revisiones. Esta herramienta fue clave para mantener la trazabilidad de cambios y versiones durante las primeras fases del ciclo de vida del producto.
+
+#### Product UX/UI Design
+
+**Figma** – [https://www.figma.com/](https://www.figma.com/)  
+Figma fue utilizado para el diseño de las interfaces gráficas del sistema, tanto para dispositivos desktop como móviles. Su capacidad de trabajo colaborativo permitió que los diseñadores y desarrolladores trabajaran de forma simultánea en la construcción de wireframes, prototipos interactivos y mockups finales. Gracias a su accesibilidad desde el navegador y su estructura basada en componentes reutilizables, se logró mantener coherencia visual en todas las vistas y se facilitó la validación temprana con los usuarios clave.
+
+#### Software Development
+
+**Visual Studio Code** – [https://code.visualstudio.com/](https://code.visualstudio.com/)  
+El entorno de desarrollo elegido para la mayoría de los componentes fue Visual Studio Code, un editor de código liviano pero altamente extensible. A través de plugins como Prettier, ESLint y GitLens, se logró mantener un estilo de código coherente, identificar errores de forma anticipada y gestionar versiones directamente desde el editor. Su compatibilidad con HTML, CSS, JavaScript y frameworks modernos permitió una integración fluida de todas las tecnologías empleadas.
+
+##### Landing Page (HTML/CSS/JS con Tailwind CSS)
+
+La Landing Page fue desarrollada utilizando HTML5, CSS3 y JavaScript Vanilla, apoyados por el framework Tailwind CSS para lograr un diseño responsive y moderno. La simplicidad de esta arquitectura permitió una rápida implementación, optimización de tiempos de carga y compatibilidad con dispositivos móviles y de escritorio.
+
+##### Frontend Web App (Framework: React)
+
+Para la aplicación principal de interacción con el usuario se utilizó React, una biblioteca de JavaScript especializada en la construcción de interfaces reactivas. Su estructura basada en componentes permitió una mayor reutilización de código y modularidad. El entorno de desarrollo también se centralizó en Visual Studio Code, incluyendo la configuración de ESLint para asegurar buenas prácticas de programación.
+
+##### RESTful Web Services (Framework: .NET Core)
+
+El backend fue construido con ASP.NET Core, utilizando C# para el desarrollo de APIs RESTful. Este framework fue seleccionado por su robustez, escalabilidad y capacidad de integración con servicios en la nube. Para su implementación y prueba se utilizó Postman, mientras que el desarrollo se llevó a cabo en Visual Studio 2022 y Visual Studio Code, dependiendo del componente.
+
+#### API Testing & Documentation
+
+**Postman** – [https://www.postman.com/](https://www.postman.com/)  
+Postman fue empleado para probar de forma manual los servicios RESTful, validar los endpoints y verificar la autenticidad y seguridad de las respuestas del servidor. Las colecciones creadas fueron compartidas entre los miembros del equipo para garantizar pruebas estandarizadas y facilitar la detección de errores en los flujos de integración.
+
+**Swagger UI** – [https://swagger.io/tools/swagger-ui/](https://swagger.io/tools/swagger-ui/)  
+Para documentar las APIs de forma automática y legible, se integró Swagger UI con los controladores del backend. Esto permitió generar una interfaz web navegable que expone los endpoints disponibles, sus métodos, parámetros y respuestas esperadas, facilitando así el trabajo de los desarrolladores frontend y terceros interesados.
+
+#### Software Deployment
+
+**Firebase Hosting** – [https://firebase.google.com/](https://firebase.google.com/)  
+Firebase se utilizó como plataforma de despliegue para la Landing Page y la aplicación frontend, debido a su rapidez de configuración, integración continua mediante CLI y capacidad de alojamiento de sitios estáticos y dinámicos. Su panel de administración intuitivo y sus herramientas para pruebas previas al despliegue facilitaron un flujo de trabajo ágil y seguro.
+
+**Azure App Services** – [https://azure.microsoft.com/](https://azure.microsoft.com/)  
+Los servicios backend fueron desplegados utilizando Azure App Services, permitiendo escalar automáticamente según la demanda, gestionar configuraciones del entorno y controlar el estado de las instancias en producción. Además, se integró con GitHub Actions para habilitar flujos de CI/CD (Integración y Despliegue Continuos).
+
+### 5.1.2. Source Code Management
+
+Para gestionar eficientemente el código fuente del sistema y asegurar una colaboración estructurada entre los desarrolladores, se ha empleado **Git** como sistema de control de versiones distribuido, en conjunto con la plataforma **GitHub** para el alojamiento remoto de los repositorios. Esta combinación ha permitido un desarrollo ordenado, seguimiento de cambios precisos y una gestión clara del ciclo de vida del software.
+
+#### Repositorios utilizados
+
+Se han creado repositorios independientes para cada uno de los módulos principales del sistema, lo cual permite una organización modular del proyecto, facilita el mantenimiento y reduce la complejidad en futuras integraciones:
+
+- **Frontend Web Application**: [https://github.com/tu-usuario/frontend-app.git](https://github.com/tu-usuario/frontend-app.git)  
+  Contiene el código fuente de la interfaz de usuario principal desarrollada con React, así como los componentes visuales y lógica del cliente.
+
+- **Landing Page**: [https://github.com/tu-usuario/landing-page.git](https://github.com/tu-usuario/landing-page.git)  
+  Repositorio dedicado a la página de presentación del sistema, construida con HTML, Tailwind CSS y JavaScript.
+
+- **Backend API**: [https://github.com/tu-usuario/backend-api.git](https://github.com/tu-usuario/backend-api.git)  
+  Repositorio donde se encuentra la lógica del servidor, desarrollado en ASP.NET Core y expuesto mediante servicios RESTful.
+
+- **Documentación Técnica y Reporte Final**: [https://github.com/tu-usuario/documentacion-proyecto.git](https://github.com/tu-usuario/documentacion-proyecto.git)  
+  Contiene los entregables del proyecto, documentación técnica, manuales de usuario, y demás archivos asociados al desarrollo formal del producto.
+
+#### Modelo de ramas implementado
+
+Para mantener una estructura clara en el flujo de desarrollo, se ha adoptado un modelo de ramas inspirado en **GitFlow**. Esta metodología permite separar el trabajo en curso del código estable en producción, facilitando el trabajo en paralelo y las futuras integraciones:
+
+- **main**: Rama principal que contiene la última versión estable del sistema, lista para producción.
+- **dev**: Rama de integración donde se unifican los avances de todas las funcionalidades antes de ser probadas y fusionadas a producción.
+- **feature/{nombre}**: Ramas creadas para el desarrollo de funcionalidades específicas del sistema. Ejemplo: `feature/registro-usuarios`.
+- **release/{version}**: Utilizadas para preparar lanzamientos formales. Incluyen ajustes finales, pruebas de integración y documentación antes de llegar a main. Ejemplo: `release/1.1.0`.
+- **hotfix/{detalle}**: Ramas de corrección inmediata sobre producción, aplicadas directamente desde main. Ejemplo: `hotfix/error-login-infinito`.
+
+#### Estrategia de commits y versionado
+
+Para asegurar un historial limpio y comprensible, se han seguido las siguientes convenciones:
+
+##### Versionado semántico (SemVer)
+
+Se ha adoptado el esquema **X.Y.Z**, donde:
+
+- **X (Major)**: Se incrementa cuando hay cambios incompatibles con versiones anteriores.
+- **Y (Minor)**: Se incrementa al agregar nuevas funcionalidades que mantienen compatibilidad.
+- **Z (Patch)**: Se incrementa en caso de corrección de errores sin afectar la funcionalidad.
+
+##### Mensajes de commit estructurados (Conventional Commits)
+
+Se siguen etiquetas estandarizadas que indican el tipo de cambio, lo que facilita la revisión y generación automática de changelogs. Algunos ejemplos usados en el proyecto:
+
+- **feat**: Incorporación de una nueva funcionalidad.
+- **fix**: Corrección de un bug o problema detectado.
+- **docs**: Modificaciones relacionadas a documentación.
+- **style**: Cambios de formato o estilo sin impacto en la lógica.
+- **refactor**: Reestructuración del código sin alterar el comportamiento externo.
+- **test**: Incorporación o modificación de pruebas automatizadas.
+
+Este enfoque integral ha permitido que el desarrollo avance de manera colaborativa, ordenada y sostenible, minimizando conflictos y facilitando futuras ampliaciones o mantenimiento del sistema.
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+Con el objetivo de mantener un código legible, organizado y fácil de mantener a lo largo del desarrollo del sistema, se han definido y seguido una serie de convenciones de estilo específicas para cada una de las tecnologías utilizadas. Estas prácticas buscan no solo facilitar la colaboración entre los integrantes del equipo, sino también asegurar la escalabilidad del proyecto y una buena experiencia para futuros desarrolladores que trabajen sobre el mismo código base.
+
+#### HTML
+
+- **Etiquetas correctamente cerradas**: Todas las etiquetas deben ser explícitamente cerradas para evitar errores de renderizado o malformaciones del DOM.
+  Ejemplo: `<section class="features"></section>`
+
+- **Uso de minúsculas en etiquetas y atributos**: Tanto los nombres de etiquetas como sus atributos deben escribirse en minúsculas.
+  Ejemplo: `<img src="banner.jpg" alt="banner principal">`
+
+- **Atributos entre comillas dobles**: Todos los valores de atributos deben ir entre comillas dobles para mantener uniformidad.
+  Ejemplo: `<a href="#contacto" class="link-seccion">Contáctanos</a>`
+
+- **Buenas prácticas con imágenes**: Se emplea `alt`, `width` y `height` para mejorar la accesibilidad y optimizar el tiempo de carga.
+  Ejemplo: `<img src="logo.png" alt="logo de la empresa" width="200" height="100">`
+
+#### CSS / Tailwind CSS
+
+- **Clases descriptivas y consistentes**: Se priorizan nombres de clases comprensibles al momento de usar estilos personalizados o aplicar utilidades.
+  Ejemplo (Tailwind): `class="bg-gray-100 text-center p-4 rounded-md"`
+
+- **Separación por guiones medios**: Se mantiene el formato `kebab-case` para los nombres de clases personalizadas.
+  Ejemplo: `.card-producto`, `.form-registro`
+
+- **Evitar redundancias**: No se especifican unidades para valores de cero (por ejemplo, `margin: 0;` en lugar de `margin: 0px;`).
+
+- **Orden lógico en los estilos**: En los componentes Vue que contienen estilos embebidos, se sigue un orden coherente agrupando propiedades relacionadas (layout, tipografía, colores, etc.).
+
+#### JavaScript (Vanilla y Vue 3)
+
+- **Uso de const y let según el contexto**: Se prefiere `const` para valores inmutables y `let` para aquellos que requieren reasignación.
+
+- **Nombres de variables claros y expresivos**: Las variables deben describir su contenido o propósito.
+  Ejemplo: `nombreUsuario`, `listaGastos`, `montoTotal`
+
+- **Modularidad del código**: Se evita la creación de funciones anidadas innecesarias, dividiendo el código en funciones reutilizables.
+
+- **Callbacks y promesas correctamente manejadas**: Se usa `async/await` en lugar de `.then()` cuando es posible, para mejorar la legibilidad.
+
+- **Eventos del DOM correctamente enlazados**: En componentes Vue, se siguen las buenas prácticas del framework para eventos, uso de `v-on`, `@click`, etc.
+
+#### Vue 3 + Vite
+
+- **Nombres de componentes en PascalCase**: Tanto en archivos como dentro del código, los componentes Vue siguen la convención PascalCase.
+  Ejemplo: `GastoItem.vue`, `FormularioRegistro.vue`
+
+- **Carpetas organizadas por responsabilidad**: Se agrupan componentes, vistas y servicios en directorios específicos, manteniendo una estructura modular.
+
+- **Directivas y bindings bien estructurados**: Se utilizan correctamente las directivas de Vue como `v-for`, `v-if`, `v-model`, asegurando claridad y eficiencia.
+
+- **Separación en bloques template, script y style**: Cada componente `.vue` debe tener bien diferenciadas sus secciones. Si el CSS es específico, se utiliza el atributo `scoped`.
+
+- **Uso de Composition API**: En la medida de lo posible, se ha adoptado la Composition API por su flexibilidad, manteniendo el código más estructurado, especialmente en componentes complejos.
+
+#### JSON
+
+- **Formato limpio y validado**: Todos los archivos `.json` utilizados (por ejemplo, para configuraciones o datos simulados) siguen un formato legible, validado y con indentación de 2 espacios.
+
+- **Claves en minúsculas y con guiones bajos si es necesario**: Se usa `camelCase` o `snake_case` dependiendo del contexto del archivo.
+
+Estas guías han sido fundamentales para mantener la coherencia en todo el proyecto, facilitar el trabajo en equipo y garantizar que el código se mantenga sostenible y escalable a lo largo del tiempo. Además, se han revisado de forma regular durante el desarrollo para asegurar su cumplimiento por parte de todos los miembros del equipo.
+
+### 5.1.4. Software Deployment Configuration
+
+El proceso de despliegue del sistema ha sido diseñado para garantizar disponibilidad, rapidez en la entrega de nuevas versiones y facilidad de mantenimiento. Cada componente cuenta con una configuración de despliegue específica, utilizando servicios modernos de hosting con soporte para integración continua.
+
+#### Landing Page
+
+- **Plataforma de despliegue**: Vercel
+- **Configuración**: El proyecto se encuentra vinculado directamente al repositorio de GitHub, permitiendo un despliegue automático con cada cambio en la rama `main`. Esto asegura que las actualizaciones estén disponibles inmediatamente después de ser validadas.
+
+#### Aplicación Web Principal (Vue 3 + Vite)
+
+- **Plataforma de despliegue**: Vercel
+- **Configuración**: Se ha configurado el entorno con soporte para rutas personalizadas y adaptado a las características del enrutador de Vue. El despliegue ocurre de manera automática tras realizar un push a la rama `main`, manteniendo el sitio actualizado de forma continua.
+
+#### Consumo de datos (APIs simuladas o externas)
+
+- **Plataforma**: Entorno local o servicios externos según el entorno de pruebas
+- **Configuración**: Durante el desarrollo se ha hecho uso de servicios mockeados o simulados en formato JSON. En una versión futura, el sistema podrá conectarse a un backend real siguiendo principios REST o GraphQL, según sea requerido.
+
+Gracias al uso de Vercel y la integración directa con GitHub, se ha logrado establecer un flujo de trabajo CI/CD que permite al equipo desplegar nuevas versiones del frontend de forma rápida, eficiente y segura, sin necesidad de realizar procesos manuales.
+
+## 5.2. Landing Page, Services & Applications Implementation
+
+### 5.2.1. Sprint 1
+
+En esta primera etapa del proyecto, el equipo se centró en la implementación inicial del Landing Page del sistema web. Esta interfaz actúa como puerta de entrada tanto para productores como consumidores interesados en el café de origen. El desarrollo se realizó utilizando tecnologías modernas (Angular y Vercel) y se priorizó la experiencia de usuario, así como la presentación de la propuesta de valor del sistema.  
+Durante este sprint, se implementó la estructura básica de la landing page, que incluye un encabezado con navegación, secciones informativas y un footer con enlaces de interés y opción de suscripción.  
+A continuación, se detalla la planificación y el backlog trabajado.
+
+---
+
+#### 5.2.1.1. Sprint Planning 1
+
+En esta planificación se acordó trabajar exclusivamente en el Landing Page, dado que representa el primer punto de contacto del usuario con el sistema. Se definieron las siguientes tareas principales:
+
+- Implementación del encabezado con logo y botones de navegación hacia las secciones: **Inicio**, **Sobre Nosotros**, **Servicios**, **Beneficios**, **Método**, **Testimonios**.
+- Desarrollo del footer, el cual contiene enlaces a más información y un formulario para suscripción.
+- Diseño responsivo básico que asegure una correcta visualización en diferentes dispositivos.
+- Despliegue automático en Vercel, conectado al repositorio de GitHub.
+
+Se asignaron tiempos estimados para cada tarea y responsabilidades dentro del equipo.
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+#### 5.2.1.3. Sprint Backlog 1
+
+| **User Story** | **Título**    | **ID**  | **Tarea**                   | **Descripción**                                                  | **Estimación (Horas)** | **Asignado a**          | **Estado** |
+|----------------|---------------|---------|-----------------------------|------------------------------------------------------------------|------------------------|-------------------------|------------|
+| US-001         | Landing Page  | T001    | Estructura del encabezado    | Implementar el encabezado con logo y botones de navegación entre secciones. | 3                      | [Nombre del integrante] | Done       |
+| US-001         | Landing Page  | T002    | Desarrollo del footer        | Implementar el pie de página con enlaces útiles y formulario de suscripción. | 3                      | [Nombre del integrante] | Done       |
+| US-001         | Landing Page  | T003    | Diseño responsivo y estilos  | Aplicar estilos generales y adaptar diseño a dispositivos móviles y escritorio. | 3                      | [Nombre del integrante] | Done       |
+| US-001         | Landing Page  | T004    | Configuración de despliegue  | Configurar despliegue automático del sitio en Vercel con integración a GitHub. | 2                      | [Nombre del integrante] | Done       |
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+Durante este Sprint, nos enfocamos en la creación y diseño de la Landing Page de nuestra aplicación Qahwa, utilizando HTML como base tecnológica. El objetivo fue construir una interfaz de bienvenida moderna, clara y responsiva que introduzca al usuario al sistema y le brinde acceso directo a las secciones principales de la plataforma.
+El diseño se orientó a facilitar la navegación y destacar el propósito del sistema, aplicando buenas prácticas de usabilidad e identidad visual coherente con la temática de control de producción. Las vistas desarrolladas incluyen el encabezado con logotipo y botones de navegación, el cuerpo con un mensaje de presentación, y un pie de página funcional que contiene enlaces útiles.
+A continuación, se presentan capturas de pantalla que muestran el avance y los elementos visuales implementados:
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante el desarrollo de este Sprint nuestro equipo logró desarrollar como forma inicial la Landing Page de nuestra startup llamada Qahwa. A lo largo del trabajo se ha logrado desarrollar el proyecto de manera efectiva y llevar un control de versiones de manera adecuada. Para garantizar todo esto se utilizaron las siguientes herramientas:
+
+- **Git**: Este sistema de control de versiones nos permitió distribuir y gestionar los cambios del proyecto de manera segura y eficiente.
+- **GitHub**: Este sistema nos facilitó el trabajo colaborativo, con el uso de ramas, control de versiones y revisión de código entre miembros del equipo.
+- **GitFlow**: Gracias a este modelo pudimos trabajar de manera organizada y permitiendo un flujo de desarrollo ordenado y controlado.
+
+Por el momento nuestro proyecto está en fase primitiva, en constante desarrollo y haciendo pruebas locales. En futuros sprints se considerará el despliegue de la plataforma en forma adecuada.
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Se buscó trabajar de manera colaborativa usando ramas en GitHub para cada tarea del proyecto.
+
+Se gestionaron pull requests, revisiones de código y asignación de tareas para facilitar la organización y la correcta comunicación del equipo.
 
