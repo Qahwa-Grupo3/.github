@@ -115,13 +115,11 @@ Nos enfocaremos inicialmente en productores cafetaleros de la región Cajamarca,
 
 Segmento 1: Pequeños productores de Café
 Descripción: agricultores que cultivan café de forma tradicional y familiar.
-Características demográficas:
-Edad: 25 - 50 años.
-Nivel educativo: en su mayoría primaria y secundaria
-Ubicación: zonas rurales de la sierra y parte de selva, como Cajamarca, San Martín, Junín y Cuzco.
-Conectividad: acceso limitado a internet, pero creciente uso de celulares con navegadores web.
+Características demográficas: - Edad: 25 - 50 años. - Nivel educativo: en su mayoría primaria y secundaria - Ubicación: zonas rurales de la sierra y parte de selva, como Cajamarca, San Martín, Junín y Cuzco. - Conectividad: acceso limitado a internet, pero creciente uso de celulares con navegadores web.
 
-Segmento 2:
+Segmento 2:Compradores
+Descripción: Personas o empresas que adquieren café directamente del productor o a través de cooperativas, para su posterior comercialización o exportación.
+Características demográficas: - Edad: 30 a 55 años. - Ubicación: zonas comerciales o urbanas cercanas a los centros de producción. - Conectividad: buena infraestructura tecnológica.
 
 Capítulo II: Requirements Elicitation & Analysis
 
