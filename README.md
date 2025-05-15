@@ -80,7 +80,7 @@ Ser la plataforma digital líder en el fortalecimiento del café peruano a nivel
     </td>
   </tr>
   <tr>
-    <td><img src="img/valentino.png" alt="valentino" width="150px"></td>
+    <td><img src="img/valentino.jpg" alt="valentino" width="150px"></td>
     <td>
       <strong>Nombres y apellidos:</strong> Esteban Valentino Alvarez Falen<br>
       <strong>Código de estudiante:</strong> U202315628<br>
