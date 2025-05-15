@@ -1,3 +1,34 @@
+<p align="center">
+  <img src="img/upc.png" alt="Logo de la UPC" width="20%" />
+</p>
+
+<p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
+
+<p align="center"><strong>Ingeniería de Software</strong><br>
+Aplicaciones Web <br>
+<strong>Profesor:</strong> Alex Humberto Sánchez Ponce </p>
+
+<h2 align="center">INFORME</h2>
+
+<h3 align="center">Startup: Qahwa</h3>
+
+<h3 align="center">Team Members:</h3>
+
+<div align="center">
+
+| **Member**                           | **Code**     |
+|--------------------------------------|--------------|
+|João Otavio de Carvalho Saito      |  U202020107  |
+|Esteban Valentino Alvarez Falen        |  U202315628 |
+| Stephano Renan Valdivia Quispe         |  U202311294 |
+|Jhordi Luis Carranza Pérez       | U20191E835 |
+</div>
+
+<p align="center"><strong>Mayo 2025</strong></p>
+
+# Project Report Collaboration Insights
+Link del repositorio: https://github.com/Qahwa-Grupo3/Report.git
+
 # Capítulo 1: Introducción
 
 ## 1.1. Startup Profile
@@ -29,24 +60,45 @@ Ser la plataforma digital líder en el fortalecimiento del café peruano a nivel
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Foto | Información |
-|------|-------------|
-| ![](img/jhordi.png) | **Nombres y apellidos:** Jhordi Luis Carranza Pérez  
-**Código de estudiante:** U20191835  
-**Carrera:** Ing. de Software  
-**Descripción:** Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, aunque muchas veces me descuide un poco. Mis conocimientos técnicos van en torno a Programación Web, bases de datos, lenguajes de alto y bajo rendimiento como C++, Python y JavaScript. |
-| ![](img/joao.png) | **Nombres y apellidos:** João Otavio de Carvalho Saito  
-**Código de estudiante:** U202020107  
-**Carrera:** Ing. de Software  
-**Descripción:** Soy una persona dedicada, activa y determinada. Muchas veces me sobrecargo de cosas que hacer y termino descuidando los detalles. Tengo conocimientos en C++, Python, Unity y modelado 3D. |
-| ![](img/valentino.jpg) | **Nombres y apellidos:** Esteban Valentino Alvarez Falen  
-**Código de estudiante:** *(no especificado)*  
-**Carrera:** Ing. de Software  
-**Descripción:** Me encanta los videojuegos y la música. Espero terminar a futuro mis metas y lograr todo con satisfacción. |
-| ![](img/stephano.jpg) | **Nombres y apellidos:** Stephano Renan Valdivia Quispe  
-**Código de estudiante:** U202311294  
-**Carrera:** Ing. de Software  
-**Descripción:** Me considero una persona determinada y paciente. Tengo conocimientos en C++, Python, Java, base de datos, desarrollo web. |
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <td><img src="img/jhordi.png" alt="Jhordi" width="150px"></td>
+    <td>
+      <strong>Nombres y apellidos:</strong> Jhordi Luis Carranza Pérez<br>
+      <strong>Código de estudiante:</strong> U20191835<br>
+      <strong>Carrera:</strong> Ing. de Software<br>
+      <strong>Descripción:</strong> Soy una persona que me gusta cumplir con mis obligaciones de manera efectiva, aunque muchas veces me descuide un poco. Mis conocimientos técnicos van en torno a Programación Web, bases de datos, lenguajes de alto y bajo rendimiento como C++, Python y JavaScript.
+    </td>
+  </tr>
+  <tr>
+    <td><img src="img/joao.png" alt="João" width="150px"></td>
+    <td>
+      <strong>Nombres y apellidos:</strong> João Otavio de Carvalho Saito<br>
+      <strong>Código de estudiante:</strong> U202020107<br>
+      <strong>Carrera:</strong> Ing. de Software<br>
+      <strong>Descripción:</strong> Soy una persona dedicada, activa y determinada. Muchas veces me sobrecargo de cosas que hacer y termino descuidando los detalles. Tengo conocimientos en C++, Python, Unity y modelado 3D.
+    </td>
+  </tr>
+  <tr>
+    <td><img src="img/valentino.png" alt="valentino" width="150px"></td>
+    <td>
+      <strong>Nombres y apellidos:</strong> Esteban Valentino Alvarez Falen<br>
+      <strong>Código de estudiante:</strong> U202315628<br>
+      <strong>Carrera:</strong> Ing. de Software<br>
+      <strong>Descripción:</strong> Soy estudiante de la UPC de la carrera de ingeniería de software, me encantan los videojuegos y la música, espero terminar a futuro mis metas y lograr todo con satisfacción.
+    </td>
+  </tr>
+  <tr>
+    <td><img src="img/stephano.png" alt="Stephano" width="150px"></td>
+    <td>
+      <strong>Nombres y apellidos:</strong> Stephano Renan Valdivia Quispe<br>
+      <strong>Código de estudiante:</strong> U202311294<br>
+      <strong>Carrera:</strong> Ing. de Software<br>
+      <strong>Descripción:</strong> Me considero una persona determinada y paciente. Tengo conocimientos en C++, Python, Java, base de datos, desarrollo web y más.
+    </td>
+  </tr>
+</table>
+
 
 ## 1.2. Solution Profile
 
@@ -671,403 +723,50 @@ El objetivo de esta matriz es identificar qué tareas realizan estos perfiles en
 | EP-011     | Recibir recomendaciones según necesidades comerciales      | Como comprador, quiero obtener sugerencias de productores o variedades de café alineadas con mis criterios de calidad, origen y volumen.                          |
 | EP-012     | Gestionar pedidos y hacer seguimiento logístico            | Como comprador, quiero ver el estado de mis pedidos, historial y detalles de envío o logística.                                                                    |
 | EP-013     | Acceder a soporte en la relación comercial                 | Como comprador, quiero recibir ayuda ante inconvenientes con el producto, entrega o aspectos contractuales.                                                        |
-| Título                               | Descripción                                                                                                      | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | EPIC ID |
-|--------------------------------------|------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| Registro de etapa de siembra         | Como productor, quiero registrar la etapa de siembra para llevar control desde el inicio del proceso productivo. | **Scenario 1: Registro exitoso de siembra**  
-GIVEN un productor logueado  
-WHEN accede al formulario de nueva etapa y completa los campos requeridos  
-THEN la etapa se guarda correctamente en la base de datos  
-AND aparece listada en el cronograma del lote.  
-  
-**Scenario 2: Error por campos vacíos**  
-GIVEN un productor que deja campos obligatorios sin llenar  
-WHEN intenta registrar la etapa  
-THEN la plataforma muestra un mensaje de error  
-AND no permite guardar la información hasta completar los datos.                                                                                                                 | EP-001  |
-| Visualización del cronograma de producción | Como productor, quiero ver un cronograma de las etapas del café para planificar mi trabajo y tiempos.             | **Scenario 1: Cronograma con etapas registradas**  
-GIVEN que el productor tiene etapas de producción guardadas  
-WHEN accede a la sección de cronograma  
-THEN se muestra una línea de tiempo con las etapas ordenadas por fecha  
-AND cada etapa es clickeable para ver más detalles.  
-  
-**Scenario 2: Cronograma vacío**  
-GIVEN que el productor aún no ha registrado ninguna etapa  
-WHEN accede a la sección de cronograma  
-THEN la plataforma muestra un mensaje indicando que no hay datos  
-AND sugiere registrar una nueva etapa.                                                                                                                    | EP-001  |
-| Edición de etapa de producción       | Como productor, quiero modificar la información de una etapa de producción en caso de errores o cambios.         | **Scenario 1: Edición exitosa de etapa**  
-GIVEN que el productor accede a una etapa previamente registrada  
-WHEN edita los datos y guarda los cambios  
-THEN la información se actualiza correctamente  
-AND se refleja en la vista de cronograma.  
-  
-**Scenario 2: Error por campos inválidos**  
-GIVEN que se ingresan datos en formato incorrecto (por ejemplo, fecha inválida)  
-WHEN intenta guardar  
-THEN la plataforma muestra un mensaje de validación  
-AND evita guardar hasta que el formato sea correcto.                                                                                                     | EP-001  |
-| Creación de perfil de productor      | Como productor, quiero crear un perfil con mi información básica para que los consumidores me conozcan.          | **Scenario 1: Creación exitosa del perfil**  
-GIVEN que el productor está logueado  
-WHEN completa el formulario de perfil y lo envía  
-THEN el perfil se guarda correctamente  
-AND es visible para los consumidores en su página de productor.  
-  
-**Scenario 2: Campos incompletos**  
-GIVEN que el productor deja campos obligatorios sin llenar  
-WHEN intenta guardar su perfil  
-THEN recibe un mensaje de advertencia  
-AND no puede continuar hasta completarlos.                                                                                                                | EP-002  |
-| Publicación de café para la venta    | Como productor, quiero publicar mis lotes de café para que estén disponibles para la venta.                      | **Scenario 1: Publicación exitosa de café**  
-GIVEN que el productor tiene café disponible  
-WHEN registra un nuevo lote en la plataforma  
-THEN el producto se publica en la vitrina virtual  
-AND los consumidores pueden verlo y comprarlo.  
-  
-**Scenario 2: Error en el registro del producto**  
-GIVEN que se omite información obligatoria como precio o descripción  
-WHEN se intenta guardar  
-THEN el sistema marca los campos faltantes  
-AND no permite completar la publicación.                                                                                                                  | EP-002  |
-| Gestión de pedidos recibidos         | Como productor, quiero ver y gestionar los pedidos que me hacen los consumidores.                                | **Scenario 1: Visualización de pedidos activos**  
-GIVEN que existen pedidos en curso  
-WHEN el productor accede a la sección de pedidos  
-THEN puede ver una lista con estado y detalles de cada uno  
-AND acceder a acciones como confirmar envío.  
-  
-**Scenario 2: Sin pedidos aún**  
-GIVEN que el productor no ha recibido pedidos  
-WHEN entra a la sección de pedidos  
-THEN ve un mensaje indicando que aún no tiene pedidos  
-AND se sugiere mejorar visibilidad del producto.                                                                                                          | EP-002  |
-| Visualización de métricas de calidad | Como productor, quiero ver indicadores de calidad como humedad o tamaño del grano para evaluar mi café.          | **Scenario 1: Visualización de métricas disponibles**  
-GIVEN que el productor ha registrado datos de calidad  
-WHEN accede al módulo de métricas  
-THEN ve gráficos e indicadores clave por lote  
-AND puede descargarlos si lo desea.  
-  
-**Scenario 2: No hay datos aún**  
-GIVEN que no hay métricas registradas  
-WHEN entra al módulo  
-THEN se muestra una notificación indicando ausencia de datos  
-AND se ofrece un botón para cargar nuevos análisis.                                                                                                       | EP-003  |
-| Comparación entre lotes              | Como productor, quiero comparar la eficiencia de producción entre diferentes lotes para optimizar mi proceso.    | **Scenario 1: Comparación entre dos lotes**  
-GIVEN que existen al menos dos lotes con métricas registradas  
-WHEN el productor los selecciona para comparar  
-THEN la plataforma muestra una tabla y gráfico comparativo  
-AND destaca diferencias en calidad o rendimiento.  
-  
-**Scenario 2: Intento de comparar con un solo lote**  
-GIVEN que el productor selecciona solo un lote  
-WHEN intenta comparar  
-THEN la plataforma muestra un mensaje indicando que se requieren al menos dos  
-AND desactiva la opción de comparación.                                                                                                                   | EP-003  |
-| Generación de reportes de producción | Como productor, quiero descargar reportes con datos de calidad y rendimiento para compartir con socios o instituciones. | **Scenario 1: Generación exitosa de reporte**  
-GIVEN que hay métricas disponibles  
-WHEN el productor solicita un reporte  
-THEN se genera un archivo PDF o Excel  
-AND se descarga automáticamente.  
-  
-**Scenario 2: No hay datos para reportar**  
-GIVEN que no existen métricas registradas  
-WHEN intenta generar un reporte  
-THEN el sistema muestra un mensaje informativo  
-AND no permite descargar el archivo.                                                                                                                       | EP-003  |
-| Registro de inventario de café       | Como productor, quiero registrar mi inventario de café para llevar control de lo disponible para venta.          | **Scenario 1: Registro exitoso de inventario**  
-GIVEN que el productor tiene café disponible  
-WHEN completa el formulario de inventario  
-THEN el sistema guarda el registro correctamente  
-AND muestra el lote en la lista de inventario.  
-  
-**Scenario 2: Campos faltantes al registrar**  
-GIVEN que el productor deja campos obligatorios sin llenar  
-WHEN intenta guardar el inventario  
-THEN la plataforma muestra un mensaje de error  
-AND no permite continuar.                                                                                                                                 | EP-004  |
-| Actualización de stock de un lote    | Como productor, quiero actualizar la cantidad de un lote en inventario si ocurre una venta o ajuste.            | **Scenario 1: Actualización exitosa de stock**  
-GIVEN que el productor accede al detalle del lote  
-WHEN modifica la cantidad disponible y guarda  
-THEN el nuevo stock se actualiza correctamente  
-AND se refleja en la vista de inventario.  
-  
-**Scenario 2: Ingreso de valor inválido**  
-GIVEN que se intenta ingresar una cantidad negativa o no numérica  
-WHEN se guarda  
-THEN el sistema muestra un mensaje de validación  
-AND no permite continuar.                                                                                                                                | EP-004  |
-| Rastreo de un lote desde origen      | Como productor, quiero rastrear un lote desde su origen para garantizar la trazabilidad del café.               | **Scenario 1: Visualización completa del historial**  
-GIVEN que el lote tiene información desde la etapa de siembra  
-WHEN el productor accede al historial  
-THEN se muestran todas las etapas del proceso  
-AND con fechas, ubicaciones y responsables.  
-  
-**Scenario 2: Información incompleta**  
-GIVEN que faltan etapas registradas  
-WHEN se accede al historial  
-THEN se indica qué información está ausente  
-AND se invita a completarla.                                                                                                                              | EP-004  |
-| Título                                    | Descripción                                                                                                            | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EPIC ID |
-|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| Visualizar opiniones de consumidores      | Como productor, quiero ver las opiniones que los consumidores dejan sobre mi café para conocer su percepción.         | **Scenario 1: Opiniones visibles en el perfil**  
-GIVEN que hay reseñas publicadas sobre un café  
-WHEN el productor accede al detalle del producto  
-THEN puede leer todas las opiniones  
-AND ver la calificación promedio.  
-  
-**Scenario 2: Aún no hay opiniones**  
-GIVEN que nadie ha reseñado el café  
-WHEN el productor accede a la sección de opiniones  
-THEN se muestra un mensaje indicando que aún no hay valoraciones  
-AND se motiva a los consumidores a dejar reseñas.                                                                                                                                                                                                                                        | EP-005  |
-| Recibir notificaciones de nuevas reseñas  | Como productor, quiero recibir notificaciones cuando un consumidor califica o comenta sobre mi café.                  | **Scenario 1: Notificación de nueva reseña**  
-GIVEN que un consumidor deja una reseña  
-WHEN se publica  
-THEN el productor recibe una notificación en la plataforma  
-AND puede acceder directamente al comentario desde ella.  
-  
-**Scenario 2: Notificaciones desactivadas**  
-GIVEN que el productor desactivó las alertas  
-WHEN se publica una reseña  
-THEN no recibe notificación  
-AND puede activarlas nuevamente desde configuración.                                                                                                                                                                                                                                                                            | EP-005  |
-| Análisis de opiniones recibidas           | Como productor, quiero ver un resumen de las calificaciones para identificar fortalezas y áreas de mejora.            | **Scenario 1: Vista de análisis con suficientes datos**  
-GIVEN que se han recibido múltiples calificaciones  
-WHEN el productor accede al módulo de análisis  
-THEN ve gráficos con promedios, tendencias y comentarios más frecuentes  
-AND puede filtrar por producto o periodo.  
-  
-**Scenario 2: Datos insuficientes**  
-GIVEN que solo hay una o dos reseñas  
-WHEN se accede al análisis  
-THEN la plataforma indica que no hay suficientes datos  
-AND muestra solo información básica.                                                                                                                                                                                                                                                        | EP-005  |
-| Acceso a recursos educativos              | Como productor, quiero acceder a guías y artículos para mejorar mis prácticas de producción.                           | **Scenario 1: Acceso a guías por categoría**  
-GIVEN que hay recursos clasificados  
-WHEN el productor entra a la sección de aprendizaje  
-THEN puede navegar por categorías como “cosecha”, “postcosecha” y “comercialización”  
-AND abrir los documentos o videos correspondientes.  
-  
-**Scenario 2: No hay recursos cargados aún**  
-GIVEN que no se han subido materiales  
-WHEN el productor entra a la sección  
-THEN se muestra un mensaje indicando que pronto estarán disponibles  
-AND se ofrece un botón para recibir notificación cuando se publiquen.                                                                                                                                                                                                                            | EP-006  |
-| Solicitud de soporte técnico              | Como productor, quiero enviar una solicitud de ayuda si tengo dudas o problemas con la plataforma o mi producción.    | **Scenario 1: Envío exitoso de solicitud**  
-GIVEN que el productor tiene un problema  
-WHEN completa el formulario de soporte  
-THEN la solicitud se envía correctamente  
-AND recibe confirmación y número de seguimiento.  
-  
-**Scenario 2: Falla por campos vacíos**  
-GIVEN que deja el campo de mensaje en blanco  
-WHEN intenta enviar  
-THEN el sistema marca el error  
-AND no permite el envío hasta completar el mensaje.                                                                                                                                                                                                                                            | EP-006  |
-| Seguimiento de solicitudes de ayuda       | Como productor, quiero ver el estado de mis solicitudes para saber si han sido atendidas.                              | **Scenario 1: Solicitudes con estado actualizado**  
-GIVEN que ha enviado una solicitud  
-WHEN entra a la sección de soporte  
-THEN ve la lista de tickets con su estado (en revisión, resuelto, pendiente)  
-AND puede revisar respuestas del equipo de soporte.  
-  
-**Scenario 2: Sin solicitudes enviadas**  
-GIVEN que nunca ha enviado una solicitud  
-WHEN entra a la sección de soporte  
-THEN se muestra un mensaje informativo  
-AND un botón para enviar una nueva.                                                                                                                                                                                                                                                           | EP-006  |
-| Edición del perfil del productor          | Como productor, quiero editar mi perfil con información personal y profesional para presentarme a los consumidores.    | **Scenario 1: Perfil actualizado exitosamente**  
-GIVEN que el productor está logueado  
-WHEN completa y guarda los campos de edición  
-THEN los cambios se reflejan en su perfil público  
-AND recibe un mensaje de confirmación.  
-  
-**Scenario 2: Falla por campos obligatorios vacíos**  
-GIVEN que deja campos clave en blanco  
-WHEN intenta guardar  
-THEN el sistema muestra errores de validación  
-AND no guarda los cambios.                                                                                                                                                                                                                                                                     | EP-007  |
-| Publicación de historia y filosofía de cultivo | Como productor, quiero compartir mi historia y métodos para conectar emocionalmente con los consumidores.           | **Scenario 1: Historia publicada correctamente**  
-GIVEN que el productor escribe su historia  
-WHEN la guarda  
-THEN esta aparece en su perfil público  
-AND puede ser leída por los consumidores.  
-  
-**Scenario 2: Texto demasiado corto**  
-GIVEN que el texto de historia tiene menos del mínimo requerido  
-WHEN intenta publicar  
-THEN la plataforma muestra un mensaje pidiendo más contenido  
-AND no permite guardar.                                                                                                                                                                                                                                                                        | EP-007  |
-| Visualización de ubicación y fotos del productor | Como productor, quiero mostrar fotos y mi ubicación para dar confianza sobre el origen de mi café.                  | **Scenario 1: Información geográfica y fotos visibles**  
-GIVEN que ha subido imágenes y ubicado su finca  
-WHEN un consumidor visita su perfil  
-THEN puede ver el mapa y las fotos en una galería  
-AND obtener más contexto del entorno.  
-  
-**Scenario 2: Falta de contenido multimedia**  
-GIVEN que no ha subido imágenes ni ubicación  
-WHEN accede a su perfil  
-THEN se muestra un mensaje sugiriendo completar esta información  
-AND un botón para hacerlo.                                                                                                                                                                                                                                                                    | EP-007  |
-| Búsqueda de café por origen o tipo         | Como comprador, quiero buscar cafés por origen, variedad o proceso para encontrar los productos que se alineen con mis necesidades. | **Scenario 1: Búsqueda con resultados**  
-GIVEN un comprador comercial logueado  
-WHEN utiliza filtros por origen y variedad  
-THEN se muestran los cafés que coinciden con los criterios.  
-  
-**Scenario 2: Sin resultados**  
-GIVEN filtros demasiado específicos  
-WHEN realiza la búsqueda  
-THEN se muestra un mensaje indicando que no hay coincidencias.                                                                                                                                                                                                                                    | EP-008  |
-| Visualización de perfiles de productores   | Como comprador, quiero ver perfiles detallados de productores para evaluar su oferta, capacidad y métodos de cultivo. | **Scenario 1: Acceso a perfiles completos**  
-GIVEN un comprador comercial  
-WHEN selecciona un productor  
-THEN se muestra información sobre su historia, ubicación, métodos y lotes disponibles.  
-  
-**Scenario 2: Perfil incompleto**  
-GIVEN un productor con datos faltantes  
-WHEN se accede a su perfil  
-THEN se muestra una advertencia o sección vacía.                                                                                                                                                                                                                                                 | EP-008  |
-| Solicitud de cotización                    | Como comprador, quiero solicitar cotizaciones personalizadas a productores para negociar precios y cantidades antes de concretar la compra. | **Scenario 1: Envío exitoso de solicitud**  
-GIVEN un comprador logueado  
-WHEN completa el formulario de cotización  
-THEN la solicitud se envía al productor y queda registrada.  
-  
-**Scenario 2: Campos obligatorios vacíos**  
-GIVEN que el comprador no llena todos los campos  
-WHEN intenta enviar  
-THEN se muestra un mensaje de error.                                                                                                                                                                                                                                                             | EP-008  |
-| Calificación de lotes de café          | Como comprador, quiero calificar los lotes de café adquiridos para ayudar a otros compradores a tomar decisiones informadas. | **Scenario 1: Calificación exitosa**  
-GIVEN un comprador que ha adquirido un lote  
-WHEN accede a la opción de calificación  
-THEN puede seleccionar una puntuación y dejar un comentario.  
-  
-**Scenario 2: Sin haber realizado compras**  
-GIVEN un comprador sin compras previas  
-WHEN intenta calificar  
-THEN la plataforma muestra un mensaje indicando que necesita haber comprado el lote. | EP-009 |
-| Compartir reseñas detalladas           | Como comprador, quiero dejar comentarios detallados sobre la calidad del café para ofrecer retroalimentación útil a otros compradores. | **Scenario 1: Reseña exitosa**  
-GIVEN un comprador que ha calificado un lote  
-WHEN escribe una reseña detallada  
-THEN se guarda y se publica junto con la calificación.  
-  
-**Scenario 2: Reseña con contenido inapropiado**  
-GIVEN un comentario ofensivo  
-WHEN se reporta  
-THEN la reseña es retirada temporalmente para revisión. | EP-009 |
-| Guardar lotes favoritos                | Como comprador, quiero guardar los lotes de café que me interesan para poder revisarlos y comprar más tarde. | **Scenario 1: Lote guardado en favoritos**  
-GIVEN un comprador interesado en un lote  
-WHEN hace clic en "guardar como favorito"  
-THEN el lote se guarda en su lista de favoritos.  
-  
-**Scenario 2: Lote eliminado de favoritos**  
-GIVEN un comprador que ya no está interesado en un lote  
-WHEN elimina el lote de favoritos  
-THEN ya no aparece en la lista. | EP-009 |
-| Visualización de historia del productor | Como comprador, quiero ver la historia completa del productor detrás de un lote de café para comprender el contexto y los métodos. | **Scenario 1: Historia visible en el perfil**  
-GIVEN un comprador comercial logueado  
-WHEN accede al perfil de un productor  
-THEN se muestra la historia completa, incluyendo su ubicación, prácticas y filosofía.  
-  
-**Scenario 2: Historia incompleta**  
-GIVEN un productor con una historia parcialmente escrita  
-WHEN se visualiza el perfil  
-THEN se muestra un mensaje indicando que la historia está incompleta. | EP-010 |
-| Información sobre prácticas sostenibles | Como comprador, quiero aprender sobre las prácticas sostenibles que utiliza el productor en su cultivo para decidir si se alinean con mis valores. | **Scenario 1: Prácticas sostenibles mostradas**  
-GIVEN un comprador interesado en la sostenibilidad  
-WHEN accede al perfil de un productor que ha descrito sus prácticas sostenibles  
-THEN se muestra un apartado detallado sobre el cultivo y el manejo sostenible.  
-  
-**Scenario 2: Sin información sobre sostenibilidad**  
-GIVEN un productor sin datos sobre sostenibilidad  
-WHEN se visualiza el perfil  
-THEN se muestra una advertencia o sección vacía. | EP-010 |
-| Acceso a videos sobre el proceso de producción | Como comprador, quiero ver videos sobre cómo se produce el café para tener una visión más detallada y auténtica del producto que estoy comprando. | **Scenario 1: Video disponible en el perfil**  
-GIVEN un productor que ha subido un video  
-WHEN un comprador accede al perfil  
-THEN puede ver el video relacionado con el proceso de producción.  
-  
-**Scenario 2: Video no disponible**  
-GIVEN un productor sin videos  
-WHEN accede al perfil  
-THEN se muestra un mensaje indicando que no hay videos disponibles. | EP-010 |
-| Recomendaciones basadas en compras previas | Como comprador, quiero recibir recomendaciones de café basadas en mis compras anteriores para facilitar mis futuras adquisiciones. | **Scenario 1: Recomendaciones personalizadas**  
-GIVEN un comprador con historial de compras  
-WHEN accede a la sección de recomendaciones  
-THEN la plataforma muestra cafés similares o relacionados con los adquiridos previamente.  
-  
-**Scenario 2: Sin historial de compras**  
-GIVEN un comprador sin compras previas  
-WHEN accede a la sección  
-THEN se muestra un mensaje sugiriendo que realice una compra para recibir recomendaciones. | EP-011 |
-| Recomendaciones basadas en preferencias de tipo de café | Como comprador, quiero recibir sugerencias de cafés que se ajusten a mis preferencias de tipo y sabor para tomar decisiones más informadas. | **Scenario 1: Preferencias guardadas correctamente**  
-GIVEN un comprador que guarda sus preferencias en el perfil  
-WHEN accede a la sección de recomendaciones  
-THEN se muestran cafés que coinciden con sus gustos y preferencias.  
-  
-**Scenario 2: Preferencias no configuradas**  
-GIVEN un comprador que no ha definido sus preferencias  
-WHEN accede a las recomendaciones  
-THEN la plataforma solicita que configure sus preferencias antes de mostrar opciones. | EP-011 |
-| Recomendaciones por valoraciones de otros compradores | Como comprador, quiero recibir recomendaciones basadas en las valoraciones altas de otros compradores comerciales para asegurarme de la calidad. | **Scenario 1: Recomendaciones por alta valoración**  
-GIVEN un comprador que accede a la sección de recomendaciones  
-WHEN la plataforma sugiere productos con altas calificaciones de otros compradores  
-THEN los cafés recomendados tienen buenas valoraciones.  
-  
-**Scenario 2: Recomendaciones sin valoraciones**  
-GIVEN cafés sin valoraciones previas  
-WHEN se muestra la recomendación  
-THEN la plataforma sugiere cafés nuevos o destacados. | EP-011 |
-| Visualización del historial de pedidos   | Como comprador, quiero ver el historial de pedidos realizados para tener un registro claro de mis compras anteriores. | **Scenario 1: Historial con pedidos anteriores**  
-GIVEN un comprador con compras realizadas  
-WHEN accede a su historial  
-THEN puede ver una lista con fechas, productos, cantidades y precios.  
-  
-**Scenario 2: Historial vacío**  
-GIVEN un comprador sin compras previas  
-WHEN accede al historial  
-THEN la plataforma indica que no hay registros. | EP-012 |
-| Seguimiento del estado de un pedido      | Como comprador, quiero conocer el estado actual de mis pedidos en curso para saber cuándo llegarán. | **Scenario 1: Pedido en tránsito**  
-GIVEN un pedido confirmado  
-WHEN el comprador accede a su estado  
-THEN se muestra información actualizada como “en preparación”, “en tránsito” o “entregado”.  
-  
-**Scenario 2: Información no disponible**  
-GIVEN un error en el sistema de seguimiento  
-WHEN se accede al pedido  
-THEN se muestra un mensaje de error y se sugiere contactar soporte. | EP-012 |
-| Descarga de comprobantes y facturas      | Como comprador, quiero descargar facturas y comprobantes de mis pedidos para tener respaldo contable. | **Scenario 1: Factura disponible para descarga**  
-GIVEN un pedido finalizado  
-WHEN el comprador accede al detalle del pedido  
-THEN puede descargar la factura en formato PDF.  
-  
-**Scenario 2: Pedido sin factura**  
-GIVEN un pedido aún no facturado  
-WHEN el comprador intenta descargar  
-THEN la plataforma muestra que el comprobante estará disponible una vez finalizado el pedido. | EP-012 |
-| Acceso a soporte en tiempo real          | Como comprador, quiero contactar con soporte en tiempo real para resolver dudas o problemas durante la compra. | **Scenario 1: Chat en vivo disponible**  
-GIVEN un comprador navegando por la plataforma  
-WHEN necesita ayuda  
-THEN puede iniciar un chat en vivo con un asesor.  
-  
-**Scenario 2: Chat fuera de horario**  
-GIVEN que el comprador accede al chat fuera del horario de atención  
-WHEN solicita soporte  
-THEN se muestra un mensaje con opciones alternativas de contacto. | EP-013 |
-| Seguimiento de incidencias reportadas    | Como comprador, quiero hacer seguimiento a incidencias reportadas para saber si se están gestionando y cuándo serán resueltas. | **Scenario 1: Ver estado de incidencia**  
-GIVEN un comprador que ha reportado un problema  
-WHEN accede a la sección de soporte  
-THEN puede ver el estado (abierto, en revisión, resuelto) y comentarios del equipo.  
-  
-**Scenario 2: Incidencia sin respuesta**  
-GIVEN un ticket sin seguimiento  
-WHEN accede  
-THEN puede reenviar la solicitud o contactar directamente. | EP-013 |
-| Acceso a preguntas frecuentes (FAQs)     | Como comprador, quiero consultar respuestas rápidas a preguntas comunes para resolver dudas sin necesidad de contactar a soporte. | **Scenario 1: Consulta de FAQs exitosa**  
-GIVEN un comprador con una duda  
-WHEN accede a la sección de preguntas frecuentes  
-THEN encuentra artículos relevantes con respuestas claras.  
-  
-**Scenario 2: No encuentra lo que busca**  
-GIVEN una duda específica no listada  
-WHEN busca en las FAQs  
-THEN se sugiere contactar al equipo de soporte. | EP-013 |
+
+
+| Título | Descripción | Criterios de Aceptación | EPIC ID |
+|--------|-------------|-------------------------|---------|
+| Registro de etapa de siembra | Como productor, quiero registrar la etapa de siembra para llevar control desde el inicio del proceso productivo. | **Scenario 1: Registro exitoso de siembra**<br>GIVEN un productor logueado<br>WHEN accede al formulario de nueva etapa y completa los campos requeridos<br>THEN la etapa se guarda correctamente en la base de datos<br>AND aparece listada en el cronograma del lote.<br><br>**Scenario 2: Error por campos vacíos**<br>GIVEN un productor que deja campos obligatorios sin llenar<br>WHEN intenta registrar la etapa<br>THEN la plataforma muestra un mensaje de error<br>AND no permite guardar la información hasta completar los datos. | EP-001 |
+| Visualización del cronograma de producción | Como productor, quiero ver un cronograma de las etapas del café para planificar mi trabajo y tiempos. | **Scenario 1: Cronograma con etapas registradas**<br>GIVEN que el productor tiene etapas de producción guardadas<br>WHEN accede a la sección de cronograma<br>THEN se muestra una línea de tiempo con las etapas ordenadas por fecha<br>AND cada etapa es clickeable para ver más detalles.<br><br>**Scenario 2: Cronograma vacío**<br>GIVEN que el productor aún no ha registrado ninguna etapa<br>WHEN accede a la sección de cronograma<br>THEN la plataforma muestra un mensaje indicando que no hay datos<br>AND sugiere registrar una nueva etapa. | EP-001 |
+| Edición de etapa de producción | Como productor, quiero modificar la información de una etapa de producción en caso de errores o cambios. | **Scenario 1: Edición exitosa de etapa**<br>GIVEN que el productor accede a una etapa previamente registrada<br>WHEN edita los datos y guarda los cambios<br>THEN la información se actualiza correctamente<br>AND se refleja en la vista de cronograma.<br><br>**Scenario 2: Error por campos inválidos**<br>GIVEN que se ingresan datos en formato incorrecto (por ejemplo, fecha inválida)<br>WHEN intenta guardar<br>THEN la plataforma muestra un mensaje de validación<br>AND evita guardar hasta que el formato sea correcto. | EP-001 |
+| Creación de perfil de productor | Como productor, quiero crear un perfil con mi información básica para que los consumidores me conozcan. | **Scenario 1: Creación exitosa del perfil**<br>GIVEN que el productor está logueado<br>WHEN completa el formulario de perfil y lo envía<br>THEN el perfil se guarda correctamente<br>AND es visible para los consumidores en su página de productor.<br><br>**Scenario 2: Campos incompletos**<br>GIVEN que el productor deja campos obligatorios sin llenar<br>WHEN intenta guardar su perfil<br>THEN recibe un mensaje de advertencia<br>AND no puede continuar hasta completarlos. | EP-002 |
+| Publicación de café para la venta | Como productor, quiero publicar mis lotes de café para que estén disponibles para la venta. | **Scenario 1: Publicación exitosa de café**<br>GIVEN que el productor tiene café disponible<br>WHEN registra un nuevo lote en la plataforma<br>THEN el producto se publica en la vitrina virtual<br>AND los consumidores pueden verlo y comprarlo.<br><br>**Scenario 2: Error en el registro del producto**<br>GIVEN que se omite información obligatoria como precio o descripción<br>WHEN se intenta guardar<br>THEN el sistema marca los campos faltantes<br>AND no permite completar la publicación. | EP-002 |
+| Gestión de pedidos recibidos | Como productor, quiero ver y gestionar los pedidos que me hacen los consumidores. | **Scenario 1: Visualización de pedidos activos**<br>GIVEN que existen pedidos en curso<br>WHEN el productor accede a la sección de pedidos<br>THEN puede ver una lista con estado y detalles de cada uno<br>AND acceder a acciones como confirmar envío.<br><br>**Scenario 2: Sin pedidos aún**<br>GIVEN que el productor no ha recibido pedidos<br>WHEN entra a la sección de pedidos<br>THEN ve un mensaje indicando que aún no tiene pedidos<br>AND se sugiere mejorar visibilidad del producto. | EP-002 |
+| Visualización de métricas de calidad | Como productor, quiero ver indicadores de calidad como humedad o tamaño del grano para evaluar mi café. | **Scenario 1: Visualización de métricas disponibles**<br>GIVEN que el productor ha registrado datos de calidad<br>WHEN accede al módulo de métricas<br>THEN ve gráficos e indicadores clave por lote<br>AND puede descargarlos si lo desea.<br><br>**Scenario 2: No hay datos aún**<br>GIVEN que no hay métricas registradas<br>WHEN entra al módulo<br>THEN se muestra una notificación indicando ausencia de datos<br>AND se ofrece un botón para cargar nuevos análisis. | EP-003 |
+| Comparación entre lotes | Como productor, quiero comparar la eficiencia de producción entre diferentes lotes para optimizar mi proceso. | **Scenario 1: Comparación entre dos lotes**<br>GIVEN que existen al menos dos lotes con métricas registradas<br>WHEN el productor los selecciona para comparar<br>THEN la plataforma muestra una tabla y gráfico comparativo<br>AND destaca diferencias en calidad o rendimiento.<br><br>**Scenario 2: Intento de comparar con un solo lote**<br>GIVEN que el productor selecciona solo un lote<br>WHEN intenta comparar<br>THEN la plataforma muestra un mensaje indicando que se requieren al menos dos<br>AND desactiva la opción de comparación. | EP-003 |
+| Generación de reportes de producción | Como productor, quiero descargar reportes con datos de calidad y rendimiento para compartir con socios o instituciones. | **Scenario 1: Generación exitosa de reporte**<br>GIVEN que hay métricas disponibles<br>WHEN el productor solicita un reporte<br>THEN se genera un archivo PDF o Excel<br>AND se descarga automáticamente.<br><br>**Scenario 2: No hay datos para reportar**<br>GIVEN que no existen métricas registradas<br>WHEN intenta generar un reporte<br>THEN el sistema muestra un mensaje informativo<br>AND no permite descargar el archivo. | EP-003 |
+| Registro de inventario de café | Como productor, quiero registrar mi inventario de café para llevar control de lo disponible para venta. | **Scenario 1: Registro exitoso de inventario**<br>GIVEN que el productor tiene café disponible<br>WHEN completa el formulario de inventario<br>THEN el sistema guarda el registro correctamente<br>AND muestra el lote en la lista de inventario.<br><br>**Scenario 2: Campos faltantes al registrar**<br>GIVEN que el productor deja campos obligatorios sin llenar<br>WHEN intenta guardar el inventario<br>THEN la plataforma muestra un mensaje de error<br>AND no permite continuar. | EP-004 |
+| Actualización de stock de un lote | Como productor, quiero actualizar la cantidad de un lote en inventario si ocurre una venta o ajuste. | **Scenario 1: Actualización exitosa de stock**<br>GIVEN que el productor accede al detalle del lote<br>WHEN modifica la cantidad disponible y guarda<br>THEN el nuevo stock se actualiza correctamente<br>AND se refleja en la vista de inventario.<br><br>**Scenario 2: Ingreso de valor inválido**<br>GIVEN que se intenta ingresar una cantidad negativa o no numérica<br>WHEN se guarda<br>THEN el sistema muestra un mensaje de validación<br>AND no permite continuar. | EP-004 |
+| Rastreo de un lote desde origen | Como productor, quiero rastrear un lote desde su origen para garantizar la trazabilidad del café. | **Scenario 1: Visualización completa del historial**<br>GIVEN que el lote tiene información desde la etapa de siembra<br>WHEN el productor accede al historial<br>THEN se muestran todas las etapas del proceso<br>AND con fechas, ubicaciones y responsables.<br><br>**Scenario 2: Información incompleta**<br>GIVEN que faltan etapas registradas<br>WHEN se accede al historial<br>THEN se indica qué información está ausente<br>AND se invita a completarla. | EP-004 |
+| Visualizar opiniones de consumidores | Como productor, quiero ver las opiniones que los consumidores dejan sobre mi café para conocer su percepción. | **Scenario 1: Opiniones visibles en el perfil**<br>GIVEN que hay reseñas publicadas sobre un café<br>WHEN el productor accede al detalle del producto<br>THEN puede leer todas las opiniones<br>AND ver la calificación promedio.<br><br>**Scenario 2: Aún no hay opiniones**<br>GIVEN que nadie ha reseñado el café<br>WHEN el productor accede a la sección de opiniones<br>THEN se muestra un mensaje indicando que aún no hay valoraciones<br>AND se motiva a los consumidores a dejar reseñas. | EP-005 |
+| Recibir notificaciones de nuevas reseñas | Como productor, quiero recibir notificaciones cuando un consumidor califica o comenta sobre mi café. | **Scenario 1: Notificación de nueva reseña**<br>GIVEN que un consumidor deja una reseña<br>WHEN se publica<br>THEN el productor recibe una notificación en la plataforma<br>AND puede acceder directamente al comentario desde ella.<br><br>**Scenario 2: Notificaciones desactivadas**<br>GIVEN que el productor desactivó las alertas<br>WHEN se publica una reseña<br>THEN no recibe notificación<br>AND puede activarlas nuevamente desde configuración. | EP-005 |
+| Análisis de opiniones recibidas | Como productor, quiero ver un resumen de las calificaciones para identificar fortalezas y áreas de mejora. | **Scenario 1: Vista de análisis con suficientes datos**<br>GIVEN que se han recibido múltiples calificaciones<br>WHEN el productor accede al módulo de análisis<br>THEN ve gráficos con promedios, tendencias y comentarios más frecuentes<br>AND puede filtrar por producto o periodo.<br><br>**Scenario 2: Datos insuficientes**<br>GIVEN que solo hay una o dos reseñas<br>WHEN se accede al análisis<br>THEN la plataforma indica que no hay suficientes datos<br>AND muestra solo información básica. | EP-005 |
+| Acceso a recursos educativos | Como productor, quiero acceder a guías y artículos para mejorar mis prácticas de producción. | **Scenario 1: Acceso a guías por categoría**<br>GIVEN que hay recursos clasificados<br>WHEN el productor entra a la sección de aprendizaje<br>THEN puede navegar por categorías como “cosecha”, “postcosecha” y “comercialización”<br>AND abrir los documentos o videos correspondientes.<br><br>**Scenario 2: No hay recursos cargados aún**<br>GIVEN que no se han subido materiales<br>WHEN el productor entra a la sección<br>THEN se muestra un mensaje indicando que pronto estarán disponibles<br>AND se ofrece un botón para recibir notificación cuando se publiquen. | EP-006 |
+| Solicitud de soporte técnico | Como productor, quiero enviar una solicitud de ayuda si tengo dudas o problemas con la plataforma o mi producción. | **Scenario 1: Envío exitoso de solicitud**<br>GIVEN que el productor tiene un problema<br>WHEN completa el formulario de soporte<br>THEN la solicitud se envía correctamente<br>AND recibe confirmación y número de seguimiento.<br><br>**Scenario 2: Falla por campos vacíos**<br>GIVEN que deja el campo de mensaje en blanco<br>WHEN intenta enviar<br>THEN el sistema marca el error<br>AND no permite el envío hasta completar el mensaje. | EP-006 |
+| Seguimiento de solicitudes de ayuda | Como productor, quiero ver el estado de mis solicitudes para saber si han sido atendidas. | **Scenario 1: Solicitudes con estado actualizado**<br>GIVEN que ha enviado una solicitud<br>WHEN entra a la sección de soporte<br>THEN ve la lista de tickets con su estado (en revisión, resuelto, pendiente)<br>AND puede revisar respuestas del equipo de soporte.<br><br>**Scenario 2: Sin solicitudes enviadas**<br>GIVEN que nunca ha enviado una solicitud<br>WHEN entra a la sección de soporte<br>THEN se muestra un mensaje informativo<br>AND un botón para enviar una nueva. | EP-006 |
+| Edición del perfil del productor | Como productor, quiero editar mi perfil con información personal y profesional para presentarme a los consumidores. | **Scenario 1: Perfil actualizado exitosamente**<br>GIVEN que el productor está logueado<br>WHEN completa y guarda los campos de edición<br>THEN los cambios se reflejan en su perfil público<br>AND recibe un mensaje de confirmación.<br><br>**Scenario 2: Falla por campos obligatorios vacíos**<br>GIVEN que deja campos clave en blanco<br>WHEN intenta guardar<br>THEN el sistema muestra errores de validación<br>AND no guarda los cambios. | EP-007 |
+| Publicación de historia y filosofía de cultivo | Como productor, quiero compartir mi historia y métodos para conectar emocionalmente con los consumidores. | **Scenario 1: Historia publicada correctamente**<br>GIVEN que el productor escribe su historia<br>WHEN la guarda<br>THEN esta aparece en su perfil público<br>AND puede ser leída por los consumidores.<br><br>**Scenario 2: Texto demasiado corto**<br>GIVEN que el texto de historia tiene menos del mínimo requerido<br>WHEN intenta publicar<br>THEN la plataforma muestra un mensaje pidiendo más contenido<br>AND no permite guardar. | EP-007 |
+| Visualización de ubicación y fotos del productor | Como productor, quiero mostrar fotos y mi ubicación para dar confianza sobre el origen de mi café. | **Scenario 1: Información geográfica y fotos visibles**<br>GIVEN que ha subido imágenes y ubicado su finca<br>WHEN un consumidor visita su perfil<br>THEN puede ver el mapa y las fotos en una galería<br>AND obtener más contexto del entorno.<br><br>**Scenario 2: Falta de contenido multimedia**<br>GIVEN que no ha subido imágenes ni ubicación<br>WHEN accede a su perfil<br>THEN se muestra un mensaje sugiriendo completar esta información<br>AND un botón para hacerlo. | EP-007 |
+| Búsqueda de café por origen o tipo | Como comprador, quiero buscar cafés por origen, variedad o proceso para encontrar los productos que se alineen con mis necesidades. | **Scenario 1: Búsqueda con resultados**<br>GIVEN un comprador comercial logueado<br>WHEN utiliza filtros por origen y variedad<br>THEN se muestran los cafés que coinciden con los criterios.<br><br>**Scenario 2: Sin resultados**<br>GIVEN filtros demasiado específicos<br>WHEN realiza la búsqueda<br>THEN se muestra un mensaje indicando que no hay coincidencias. | EP-008 |
+| Visualización de perfiles de productores | Como comprador, quiero ver perfiles detallados de productores para evaluar su oferta, capacidad y métodos de cultivo. | **Scenario 1: Acceso a perfiles completos**<br>GIVEN un comprador comercial<br>WHEN selecciona un productor<br>THEN se muestra información sobre su historia, ubicación, métodos y lotes disponibles.<br><br>**Scenario 2: Perfil incompleto**<br>GIVEN un productor con datos faltantes<br>WHEN se accede a su perfil<br>THEN se muestra una advertencia o sección vacía. | EP-008 |
+| Solicitud de cotización | Como comprador, quiero solicitar cotizaciones personalizadas a productores para negociar precios y cantidades antes de concretar la compra. | **Scenario 1: Envío exitoso de solicitud**<br>GIVEN un comprador logueado<br>WHEN completa el formulario de cotización<br>THEN la solicitud se envía al productor y queda registrada.<br><br>**Scenario 2: Campos obligatorios vacíos**<br>GIVEN que el comprador no llena todos los campos<br>WHEN intenta enviar<br>THEN se muestra un mensaje de error. | EP-008 |
+| Calificación de lotes de café | Como comprador, quiero calificar los lotes de café adquiridos para ayudar a otros compradores a tomar decisiones informadas. | **Scenario 1: Calificación exitosa**<br>GIVEN un comprador que ha adquirido un lote<br>WHEN accede a la opción de calificación<br>THEN puede seleccionar una puntuación y dejar un comentario.<br><br>**Scenario 2: Sin haber realizado compras**<br>GIVEN un comprador sin compras previas<br>WHEN intenta calificar<br>THEN la plataforma muestra un mensaje indicando que necesita haber comprado el lote. | EP-009 |
+| Compartir reseñas detalladas | Como comprador, quiero dejar comentarios detallados sobre la calidad del café para ofrecer retroalimentación útil a otros compradores. | **Scenario 1: Reseña exitosa**<br>GIVEN un comprador que ha calificado un lote<br>WHEN escribe una reseña detallada<br>THEN se guarda y se publica junto con la calificación.<br><br>**Scenario 2: Reseña con contenido inapropiado**<br>GIVEN un comentario ofensivo<br>WHEN se reporta<br>THEN la reseña es retirada temporalmente para revisión. | EP-009 |
+| Guardar lotes favoritos | Como comprador, quiero guardar los lotes de café que me interesan para poder revisarlos y comprar más tarde. | **Scenario 1: Lote guardado en favoritos**<br>GIVEN un comprador interesado en un lote<br>WHEN hace clic en "guardar como favorito"<br>THEN el lote se guarda en su lista de favoritos.<br><br>**Scenario 2: Lote eliminado de favoritos**<br>GIVEN un comprador que ya no está interesado en un lote<br>WHEN elimina el lote de favoritos<br>THEN ya no aparece en la lista. | EP-009 |
+| Visualización de historia del productor | Como comprador, quiero ver la historia completa del productor detrás de un lote de café para comprender el contexto y los métodos. | **Scenario 1: Historia visible en el perfil**<br>GIVEN un comprador comercial logueado<br>WHEN accede al perfil de un productor<br>THEN se muestra la historia completa, incluyendo su ubicación, prácticas y filosofía.<br><br>**Scenario 2: Historia incompleta**<br>GIVEN un productor con una historia parcialmente escrita<br>WHEN se visualiza el perfil<br>THEN se muestra un mensaje indicando que la historia está incompleta. | EP-010 |
+| Información sobre prácticas sostenibles | Como comprador, quiero aprender sobre las prácticas sostenibles que utiliza el productor en su cultivo para decidir si se alinean con mis valores. | **Scenario 1: Prácticas sostenibles mostradas**<br>GIVEN un comprador interesado en la sostenibilidad<br>WHEN accede al perfil de un productor que ha descrito sus prácticas sostenibles<br>THEN se muestra un apartado detallado sobre el cultivo y el manejo sostenible.<br><br>**Scenario 2: Sin información sobre sostenibilidad**<br>GIVEN un productor sin datos sobre sostenibilidad<br>WHEN se visualiza el perfil<br>THEN se muestra una advertencia o sección vacía. | EP-010 |
+| Acceso a videos sobre el proceso de producción | Como comprador, quiero ver videos sobre cómo se produce el café para tener una visión más detallada y auténtica del producto que estoy comprando. | **Scenario 1: Video disponible en el perfil**<br>GIVEN un productor que ha subido un video<br>WHEN un comprador accede al perfil<br>THEN puede ver el video relacionado con el proceso de producción.<br><br>**Scenario 2: Video no disponible**<br>GIVEN un productor sin videos<br>WHEN accede al perfil<br>THEN se muestra un mensaje indicando que no hay videos disponibles. | EP-010 |
+| Recomendaciones basadas en compras previas | Como comprador, quiero recibir recomendaciones de café basadas en mis compras anteriores para facilitar mis futuras adquisiciones. | **Scenario 1: Recomendaciones personalizadas**<br>GIVEN un comprador con historial de compras<br>WHEN accede a la sección de recomendaciones<br>THEN la plataforma muestra cafés similares o relacionados con los adquiridos previamente.<br><br>**Scenario 2: Sin historial de compras**<br>GIVEN un comprador sin compras previas<br>WHEN accede a la sección<br>THEN se muestra un mensaje sugiriendo que realice una compra para recibir recomendaciones. | EP-011 |
+| Recomendaciones basadas en preferencias de tipo de café | Como comprador, quiero recibir sugerencias de cafés que se ajusten a mis preferencias de tipo y sabor para tomar decisiones más informadas. | **Scenario 1: Preferencias guardadas correctamente**<br>GIVEN un comprador que guarda sus preferencias en el perfil<br>WHEN accede a la sección de recomendaciones<br>THEN se muestran cafés que coinciden con sus gustos y preferencias.<br><br>**Scenario 2: Preferencias no configuradas**<br>GIVEN un comprador que no ha definido sus preferencias<br>WHEN accede a las recomendaciones<br>THEN la plataforma solicita que configure sus preferencias antes de mostrar opciones. | EP-011 |
+| Recomendaciones por valoraciones de otros compradores | Como comprador, quiero recibir recomendaciones basadas en las valoraciones altas de otros compradores comerciales para asegurarme de la calidad. | **Scenario 1: Recomendaciones por alta valoración**<br>GIVEN un comprador que accede a la sección de recomendaciones<br>WHEN la plataforma sugiere productos con altas calificaciones de otros compradores<br>THEN los cafés recomendados tienen buenas valoraciones.<br><br>**Scenario 2: Recomendaciones sin valoraciones**<br>GIVEN cafés sin valoraciones previas<br>WHEN se muestra la recomendación<br>THEN la plataforma sugiere cafés nuevos o destacados. | EP-011 |
+| Visualización del historial de pedidos | Como comprador, quiero ver el historial de pedidos realizados para tener un registro claro de mis compras anteriores. | **Scenario 1: Historial con pedidos anteriores**<br>GIVEN un comprador con compras realizadas<br>WHEN accede a su historial<br>THEN puede ver una lista con fechas, productos, cantidades y precios.<br><br>**Scenario 2: Historial vacío**<br>GIVEN un comprador sin compras previas<br>WHEN accede al historial<br>THEN la plataforma indica que no hay registros. | EP-012 |
+| Seguimiento del estado de un pedido | Como comprador, quiero conocer el estado actual de mis pedidos en curso para saber cuándo llegarán. | **Scenario 1: Pedido en tránsito**<br>GIVEN un pedido confirmado<br>WHEN el comprador accede a su estado<br>THEN se muestra información actualizada como “en preparación”, “en tránsito” o “entregado”.<br><br>**Scenario 2: Información no disponible**<br>GIVEN un error en el sistema de seguimiento<br>WHEN se accede al pedido<br>THEN se muestra un mensaje de error y se sugiere contactar soporte. | EP-012 |
+| Descarga de comprobantes y facturas | Como comprador, quiero descargar facturas y comprobantes de mis pedidos para tener respaldo contable. | **Scenario 1: Factura disponible para descarga**<br>GIVEN un pedido finalizado<br>WHEN el comprador accede al detalle del pedido<br>THEN puede descargar la factura en formato PDF.<br><br>**Scenario 2: Pedido sin factura**<br>GIVEN un pedido aún no facturado<br>WHEN el comprador intenta descargar<br>THEN la plataforma muestra que el comprobante estará disponible una vez finalizado el pedido. | EP-012 |
+| Acceso a soporte en tiempo real | Como comprador, quiero contactar con soporte en tiempo real para resolver dudas o problemas durante la compra. | **Scenario 1: Chat en vivo disponible**<br>GIVEN un comprador navegando por la plataforma<br>WHEN necesita ayuda<br>THEN puede iniciar un chat en vivo con un asesor.<br><br>**Scenario 2: Chat fuera de horario**<br>GIVEN que el comprador accede al chat fuera del horario de atención<br>WHEN solicita soporte<br>THEN se muestra un mensaje con opciones alternativas de contacto. | EP-013 |
+| Seguimiento de incidencias reportadas | Como comprador, quiero hacer seguimiento a incidencias reportadas para saber si se están gestionando y cuándo serán resueltas. | **Scenario 1: Ver estado de incidencia**<br>GIVEN un comprador que ha reportado un problema<br>WHEN accede a la sección de soporte<br>THEN puede ver el estado (abierto, en revisión, resuelto) y comentarios del equipo.<br><br>**Scenario 2: Incidencia sin respuesta**<br>GIVEN un ticket sin seguimiento<br>WHEN accede<br>THEN puede reenviar la solicitud o contactar directamente. | EP-013 |
+| Acceso a preguntas frecuentes (FAQs) | Como comprador, quiero consultar respuestas rápidas a preguntas comunes para resolver dudas sin necesidad de contactar a soporte. | **Scenario 1: Consulta de FAQs exitosa**<br>GIVEN un comprador con una duda<br>WHEN accede a la sección de preguntas frecuentes<br>THEN encuentra artículos relevantes con respuestas claras.<br><br>**Scenario 2: No encuentra lo que busca**<br>GIVEN una duda específica no listada<br>WHEN busca en las FAQs<br>THEN se sugiere contactar al equipo de soporte. | EP-013 |
+
 
 
 ## 3.3. Impact Mapping.
@@ -1410,13 +1109,13 @@ La navegación está pensada para ser intuitiva y predecible. Se aplican patrone
 
 ### 4.4.2. Web Applications Mock-ups.
 <p align="center">
-  <img src="img/webappMockup.jpg" alt="webappMockup" />
+  <img src="img/webappMockup.png" alt="webappMockup" />
 </p>
 <p align="center">
-  <img src="img/webappMockup1.jpg" alt="webappMockup1" />
+  <img src="img/webappMockup1.png" alt="webappMockup1" />
 </p>
 <p align="center">
-  <img src="img/webappMockup2.jpg" alt="webappMockup2" />
+  <img src="img/webappMockup2.png" alt="webappMockup2" />
 </p>
 
 
