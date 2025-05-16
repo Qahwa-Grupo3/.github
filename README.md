@@ -1480,7 +1480,7 @@ A continuación, se presentan los colaboradores de **Qahwa** en relación al des
 
 #### 5.2.1.3. Sprint Backlog 1. 
 
-Link del repositorio de landing page en GitHub: 
+Link del repositorio de landing page en GitHub (Report/LandingPage1.0): 
 https://github.com/Qahwa-Grupo3
 
 | **User Story** | **Título**      | **ID**  | **Tarea**                 | **Descripción**                                                                 | **Estimación (Horas)** | **Asignado a**         | **Estado** |
@@ -1524,6 +1524,68 @@ Por el momento, nuestro proyecto está en fase primitiva, en constante desarroll
 Se buscó trabajar de manera colaborativa usando ramas en GitHub para cada tarea del proyecto.
 
 Se gestionaron **pull requests**, revisiones de código y asignación de tareas para facilitar la organización y la correcta comunicación del equipo.
+
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+En esta fase inicial del Sprint 2, el equipo definió los objetivos prioritarios y las tareas a realizar, basándose en las necesidades del proyecto y las funcionalidades pendientes. Se revisaron los User Stories asignados y se planificó la distribución del trabajo para maximizar la eficiencia y el cumplimiento de metas.
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Se designaron líderes para cada aspecto clave del Sprint: desarrollo frontend, backend, documentación y despliegue. Los colaboradores se asignaron en función de sus habilidades y experiencia para asegurar una colaboración efectiva y balanceada.
+
+#### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal de este Sprint fue avanzar en la implementación y documentación de funcionalidades críticas relacionadas con la gestión de perfiles de productores, control de producción, y soporte técnico.
+
+
+| User Story | Work-Item / Task              | Id   | Title                              | Description                                         | Estimation (Hours) | Assigned To | Status      |
+|------------|------------------------------|------|----------------------------------|-----------------------------------------------------|-------------------|-------------|-------------|
+| EP-002     | Creación de perfil de productor | T001 | Diseño de formulario de perfil    | Crear interfaz para ingreso y edición de perfil     | 8                 | Juan Pérez  | Done        |
+| EP-007     | Edición del perfil del productor | T002 | Implementar backend de edición    | Desarrollo de API para editar perfil de productor   | 10                | Ana Ruiz    | InProcess   |
+| EP-006     | Solicitud de soporte técnico     | T003 | Configuración módulo soporte      | Crear sistema para solicitudes y seguimiento        | 12                | Luis Gómez  | ToReview    |
+| ...        | ...                            | ...  | ...                              | ...                                                 | ...               | ...         | ...         |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2 se avanzó significativamente en la implementación de los módulos de perfil de productor, soporte técnico y publicación de café para la venta. 
+
+| Repository          | Branch               | Commit Id | Commit Message                            | Commit Message Body                                      | Committed on  |
+|---------------------|----------------------|-----------|-------------------------------------------|----------------------------------------------------------|--------------|
+| backend-repo        | feature/profile-edit  | 14ca4e3   | feat: Implement backend for profile edit | Se agregó endpoint PUT para actualización de perfil      | 2025-05-10   |
+| frontend-repo       | feature/support-ticket| b7d9f12   | feat: Add support ticket UI                | Nueva interfaz para envío y seguimiento de tickets       | 2025-05-12   |
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Para este Sprint se documentaron los siguientes endpoints del API relacionados con la edición de perfil y gestión de soporte:
+
+| Endpoint          | Acción HTTP | Descripción                        | Parámetros                        | Ejemplo de Response             | URL Documentación                  |
+|-------------------|-------------|----------------------------------|---------------------------------|--------------------------------|----------------------------------|
+| /producer/profile  | PUT         | Actualiza datos del perfil        | JSON con campos de perfil        | 200 OK con datos actualizados   | [Docs Perfil](URL_docs_perfil)    |
+| /support/ticket    | POST        | Crea nueva solicitud de soporte   | JSON con asunto y descripción    | 201 Created con id de ticket    | [Docs Soporte](URL_docs_soporte)  |
+
+Repositorio de Web Services con commits relacionados (Report/PaginaWeb-V1.0):  
+https://github.com/Qahwa-Grupo3/Report.git
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se realizaron las siguientes actividades de despliegue:
+
+- Configuración de entornos de prueba y producción en AWS.
+- Creación de pipeline CI/CD para integración y despliegue automático.
+- Despliegue de la landing page actualizada y las aplicaciones web backend y frontend.
+
+Explicación paso a paso:  
+1. Creación de cuentas y permisos IAM.  
+2. Configuración de servicios EC2 y RDS para backend.  
+3. Automatización con GitHub Actions para deploy continuo.  
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+El trabajo en equipo durante este Sprint se caracterizó por una alta participación y colaboración entre los miembros. Se utilizaron herramientas de control como GitHub y Trello para seguimiento de tareas y código.
+
+Cada miembro aportó en las distintas áreas del proyecto, garantizando un avance equilibrado en todos los frentes.
 
 
 
